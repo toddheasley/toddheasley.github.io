@@ -1,0 +1,63 @@
+* {
+    -webkit-text-size-adjust: none;
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgb(255, 255, 255);
+    color: rgba(0, 0, 0, 0.8);
+    font: 13px HelveticaNeue, Helvetica, sans-serif;
+    margin: 28px auto;
+    max-width: 768px;
+}
+
+article, menu {
+    margin: 8px;
+}
+
+menu {
+    margin-top: 48px;
+}
+
+article h1 {
+    font-size: 15px;
+}
+
+menu h1 {
+    font-size: 18px;
+    margin: 16px 0;
+}
+
+h1 {
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: normal;
+}
+
+h1, p, ul {
+    margin: 8px 0;
+}
+
+h1 a {
+    color: inherit;
+    text-decoration: none;
+}
+
+p, li {
+    line-height: 16px;
+}
+
+li {
+    color: rgba(0, 0, 0, 0.2);
+    list-style: none;
+    margin: 6px 0;
+}
+
+img, audio, video {
+    width: 100%;
+}
+
+img {
+    display: block;
+}
