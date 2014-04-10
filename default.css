@@ -1,57 +1,26 @@
 * {
     -webkit-text-size-adjust: none;
     border: 0;
+    list-style: none;
     margin: 0;
     padding: 0;
 }
 
 body {
     background: rgb(255, 255, 255);
-    color: rgba(0, 0, 0, 0.8);
-    font: 13px HelveticaNeue, Helvetica, sans-serif;
-    margin: 28px auto;
+    color: rgb(0, 0, 0);
+    font: 32px Helvetica, sans-serif;
+    letter-spacing: 2px;
+    line-height: 1em;
+    margin: 32px auto;
     max-width: 768px;
 }
 
-article, menu {
-    margin: 8px;
-}
-
-menu {
-    margin-top: 48px;
-}
-
-article h1 {
-    font-size: 15px;
-}
-
-menu h1 {
-    font-size: 18px;
-    margin: 16px 0;
-}
-
-h1 {
-    color: rgba(0, 0, 0, 0.5);
-    font-weight: normal;
-}
-
-h1, p, ul {
-    margin: 8px 0;
-}
-
-h1 a {
+a {
+    border-bottom: 3px solid;
     color: inherit;
     text-decoration: none;
-}
-
-p, li {
-    line-height: 16px;
-}
-
-li {
-    color: rgba(0, 0, 0, 0.2);
-    list-style: none;
-    margin: 6px 0;
+    outline: none;
 }
 
 img, audio, video {
@@ -60,4 +29,138 @@ img, audio, video {
 
 img {
     display: block;
+}
+
+h1 {
+    font-weight: normal;
+    font-size: 1em;
+    padding-bottom: 12px;
+}
+
+h1 a {
+    color: inherit;
+}
+
+header, footer, menu {
+    margin: 0 64px;
+}
+
+header h1 {
+    margin: 9px 0;
+}
+
+main h1, main li span, main p {
+    margin: 0 64px;
+}
+
+main h1 {
+    margin-bottom: 32px;
+}
+
+main figure + figure {
+    margin-top: 18px;
+}
+
+main p {
+    line-height: 1.3em;
+    overflow: hidden;
+    padding-bottom: 12px;
+    text-overflow: ellipsis;
+}
+
+menu li {
+    margin: 18px 0;
+}
+
+menu li a, menu li span {
+    background: rgb(255, 255, 0);
+    border: 3px solid rgb(255, 255, 0);
+    color: inherit;
+    display: inline-block;
+    max-width: 90%;
+    overflow: hidden;
+    padding: 5px 6px;
+    text-decoration: none;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+menu li span {
+    max-width: 80%;
+}
+
+menu li a:hover {
+    background: none;
+    border-color: rgb(0, 0, 0);
+}
+
+footer p {
+    margin: 56px 0 60px 0;
+    padding-bottom: 12px;
+}
+
+footer a {
+    border-color: rgb(255, 255, 0);
+    color: inherit;
+    text-decoration: none;
+}
+
+footer a:hover {
+    border-color: inherit;
+}
+
+@media (max-width: 568px) {
+    body {
+        font-size: 18px;
+        letter-spacing: 1px;
+        margin: 18px auto;
+    }
+    
+    a {
+        border-bottom: 2px solid;
+    }
+    
+    h1 {
+        padding-bottom: 6px;
+    }
+    
+    header, footer, menu {
+        margin: 0 18px;
+    }
+    
+    header h1 {
+        margin: 4px 0;
+    }
+    
+    main h1, main li span, main p {
+        margin: 0 18px;
+    }
+    
+    main h1 {
+        margin-bottom: 16px;
+    }
+    
+    main figure + figure {
+        margin-top: 9px;
+    }
+    
+    main p {
+        line-height: 1.3em;
+        padding-bottom: 6px;
+    }
+    
+    menu li {
+        margin: 11px 0;
+    }
+    
+    menu li a, menu li span {
+        border-width: 2px;
+        padding: 3px;
+        text-decoration: none;
+    }
+    
+    footer p {
+    margin: 28px 0 30px 0;
+    padding-bottom: 6px;
+}
 }
