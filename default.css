@@ -7,9 +7,9 @@
 }
 
 body {
-    background: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
-    font: 32px Helvetica, sans-serif;
+    background: rgb(252, 252, 252);
+    color: rgb(29, 29, 29);
+    font: 22px Helvetica, sans-serif;
     letter-spacing: 2px;
     line-height: 1em;
     margin: 32px auto;
@@ -17,7 +17,7 @@ body {
 }
 
 a {
-    border-bottom: 3px solid;
+    border-bottom: 2px solid;
     color: inherit;
     text-decoration: none;
     outline: none;
@@ -34,38 +34,33 @@ img {
 h1 {
     font-weight: normal;
     font-size: 1em;
-    padding-bottom: 12px;
-}
-
-h1 a {
-    color: inherit;
 }
 
 header, footer, menu {
-    margin: 0 64px;
-}
-
-header h1 {
-    margin: 9px 0;
-}
-
-main h1, main li span, main p {
-    margin: 0 64px;
+    margin: 0 48px;
 }
 
 main h1 {
-    margin-bottom: 32px;
+    margin: 16px 48px 32px 48px;
 }
 
-main figure + figure {
-    margin-top: 18px;
+main ul {
+    margin-top: 32px
 }
 
 main p {
-    line-height: 1.3em;
-    overflow: hidden;
-    padding-bottom: 12px;
-    text-overflow: ellipsis;
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin: 12px 48px;
+    padding: 1px 0;
+}
+
+main figure + figure, main li + li {
+    margin-top: 8px;
+}
+
+menu {
+    margin: 48px;
 }
 
 menu li {
@@ -73,8 +68,8 @@ menu li {
 }
 
 menu li a, menu li span {
-    background: rgb(255, 255, 0);
-    border: 3px solid rgb(255, 255, 0);
+    background: rgba(29, 29, 29, 0.2);
+    border: 2px solid rgba(29, 29, 29, 0.0);
     color: inherit;
     display: inline-block;
     max-width: 90%;
@@ -85,28 +80,22 @@ menu li a, menu li span {
     white-space: nowrap;
 }
 
-menu li span {
-    max-width: 80%;
-}
-
-menu li a:hover {
+menu li a:hover, menu li span {
     background: none;
-    border-color: rgb(0, 0, 0);
+    border-color: rgba(29, 29, 29, 0.9);
 }
 
 footer p {
-    margin: 56px 0 60px 0;
-    padding-bottom: 12px;
+    padding-bottom: 8px;
 }
 
 footer a {
-    border-color: rgb(255, 255, 0);
-    color: inherit;
-    text-decoration: none;
+    border-color: rgba(29, 29, 29, 0.3);
 }
 
 footer a:hover {
     border-color: inherit;
+
 }
 
 @media (max-width: 568px) {
@@ -117,36 +106,29 @@ footer a:hover {
     }
     
     a {
-        border-bottom: 2px solid;
-    }
-    
-    h1 {
-        padding-bottom: 6px;
+        border-bottom: 1px solid;
     }
     
     header, footer, menu {
         margin: 0 18px;
     }
     
-    header h1 {
-        margin: 4px 0;
-    }
-    
-    main h1, main li span, main p {
-        margin: 0 18px;
-    }
-    
     main h1 {
-        margin-bottom: 16px;
-    }
-    
-    main figure + figure {
-        margin-top: 9px;
+        margin: 8px 18px 24px 18px;
     }
     
     main p {
-        line-height: 1.3em;
-        padding-bottom: 6px;
+        font-size: 14px;
+        margin: 8px 18px;
+        padding: 1px 0;
+    }
+    
+    main figure + figure {
+        margin-top: 6px;
+    }
+    
+    menu {
+        margin: 32px 18px;
     }
     
     menu li {
@@ -154,13 +136,7 @@ footer a:hover {
     }
     
     menu li a, menu li span {
-        border-width: 2px;
-        padding: 3px;
-        text-decoration: none;
+        border-width: 1px;
+        padding: 4px;
     }
-    
-    footer p {
-    margin: 28px 0 30px 0;
-    padding-bottom: 6px;
-}
 }
