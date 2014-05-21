@@ -117,6 +117,10 @@ footer a:hover {
         margin: 8px 18px 24px 18px;
     }
     
+    main ul {
+    margin-top: 18px
+}
+    
     main p {
         font-size: 14px;
         margin: 8px 18px;
