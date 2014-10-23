@@ -9,15 +9,15 @@
 body {
     background: rgb(252, 252, 252);
     color: rgb(29, 29, 29);
-    font: 22px Helvetica, sans-serif;
-    letter-spacing: 2px;
+    font: 18px Helvetica, sans-serif;
+    letter-spacing: 1px;
     line-height: 1em;
-    margin: 32px auto;
+    margin: 18px auto;
     max-width: 768px;
 }
 
 a {
-    border-bottom: 2px solid;
+    border-bottom: 1px solid;
     color: inherit;
     text-decoration: none;
     outline: none;
@@ -37,22 +37,26 @@ h1 {
 }
 
 header, footer, menu {
-    margin: 0 48px;
+    margin: 0 18px;
 }
 
 main h1 {
-    margin: 16px 48px 32px 48px;
+    margin: 8px 18px 24px 18px;
 }
 
 main ul {
-    margin-top: 32px
+    margin-top: 24px;
 }
 
 main p {
-    font-size: 16px;
+    font-size: 14px;
     letter-spacing: 1px;
-    margin: 12px 48px;
+    margin: 8px 18px;
     padding: 1px 0;
+}
+
+main figure, main li {
+	margin: 0 11px;
 }
 
 main figure + figure, main li + li {
@@ -60,16 +64,16 @@ main figure + figure, main li + li {
 }
 
 menu {
-    margin: 48px;
+    margin: 32px 18px;
 }
 
 menu li {
-    margin: 18px 0;
+    margin: 11px 0;
 }
 
 menu li a, menu li span {
-    background: rgba(29, 29, 29, 0.2);
-    border: 2px solid rgba(29, 29, 29, 0.0);
+    background: rgba(29, 29, 29, 0.1);
+    border: 1px solid rgba(29, 29, 29, 0.0);
     color: inherit;
     display: inline-block;
     max-width: 90%;
@@ -89,58 +93,16 @@ footer p {
     padding-bottom: 8px;
 }
 
-footer a {
-    border-color: rgba(29, 29, 29, 0.3);
-}
-
-footer a:hover {
-    border-color: inherit;
-
-}
-
 @media (max-width: 568px) {
-    body {
-        font-size: 18px;
-        letter-spacing: 1px;
-        margin: 18px auto;
-    }
-    
-    a {
-        border-bottom: 1px solid;
-    }
-    
-    header, footer, menu {
-        margin: 0 18px;
-    }
-    
-    main h1 {
-        margin: 8px 18px 24px 18px;
-    }
-    
-    main ul {
-        margin-top: 24px
-    }
-    
-    main p {
-        font-size: 14px;
-        margin: 8px 18px;
-        padding: 1px 0;
-    }
+    main figure, main li {
+		margin: 0 8px;
+	}
     
     main figure + figure {
         margin-top: 6px;
     }
     
-    menu {
-        margin: 32px 18px;
-    }
-    
-    menu li {
-        margin: 11px 0;
-    }
-    
     menu li a, menu li span {
-        border-width: 1px;
         padding: 4px;
     }
 }
