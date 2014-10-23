@@ -44,10 +44,6 @@ main h1 {
     margin: 8px 18px 24px 18px;
 }
 
-main ul {
-    margin-top: 24px;
-}
-
 main p {
     font-size: 14px;
     letter-spacing: 1px;
@@ -55,11 +51,11 @@ main p {
     padding: 1px 0;
 }
 
-main figure, main li {
-	margin: 0 11px;
+main figure {
+    margin: 0 11px;
 }
 
-main figure + figure, main li + li {
+main figure + figure {
     margin-top: 8px;
 }
 
@@ -94,9 +90,9 @@ footer p {
 }
 
 @media (max-width: 568px) {
-    main figure, main li {
-		margin: 0 8px;
-	}
+    main figure {
+        margin: 0 8px;
+    }
     
     main figure + figure {
         margin-top: 6px;
