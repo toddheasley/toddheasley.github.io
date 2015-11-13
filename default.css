@@ -63,11 +63,11 @@ menu {
     margin: 32px 18px;
 }
 
-menu li {
+menu p {
     margin: 11px 0;
 }
 
-menu li a, menu li span {
+menu p a, menu p span {
     background: rgba(29, 29, 29, 0.1);
     border: 1px solid rgba(29, 29, 29, 0.0);
     color: inherit;
@@ -80,7 +80,7 @@ menu li a, menu li span {
     white-space: nowrap;
 }
 
-menu li a:hover, menu li span {
+menu p a:hover, menu p span {
     background: none;
     border-color: rgba(29, 29, 29, 0.9);
 }
@@ -93,11 +93,11 @@ footer p {
     main figure {
         margin: 0 8px;
     }
-    
+
     main figure + figure {
         margin-top: 6px;
     }
-    
+
     menu li a, menu li span {
         padding: 4px;
     }
