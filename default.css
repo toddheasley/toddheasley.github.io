@@ -7,13 +7,14 @@
 }
 
 body {
-    background: rgb(252, 252, 252);
+    background: rgb(251, 251, 251);
     color: rgb(29, 29, 29);
-    font: 18px Helvetica, sans-serif;
+    font: 15px sans-serif;
     letter-spacing: 1px;
     line-height: 1em;
-    margin: 18px auto;
+    margin: 0 auto;
     max-width: 768px;
+    padding: 10px;
 }
 
 a {
@@ -36,35 +37,21 @@ h1 {
     font-size: 1em;
 }
 
-header, footer, menu {
-    margin: 0 18px;
-}
-
 main h1 {
-    margin: 8px 18px 24px 18px;
+    margin: 0.5em 0 1.5em 0;
 }
 
 main p {
-    font-size: 14px;
-    letter-spacing: 1px;
-    margin: 8px 18px;
-    padding: 1px 0;
-}
-
-main figure {
-    margin: 0 11px;
-}
-
-main figure + figure {
-    margin-top: 8px;
+    font-size: 12px;
+    margin: 1em 0;
 }
 
 menu {
-    margin: 32px 18px;
+    margin: 2em 0 1.5em 0;
 }
 
 menu p {
-    margin: 11px 0;
+    margin: 0.5em 0;
 }
 
 menu p a, menu p span {
@@ -74,7 +61,7 @@ menu p a, menu p span {
     display: inline-block;
     max-width: 90%;
     overflow: hidden;
-    padding: 5px 6px;
+    padding: 4px;
     text-decoration: none;
     text-overflow: ellipsis;
     white-space: nowrap;
@@ -82,23 +69,5 @@ menu p a, menu p span {
 
 menu p a:hover, menu p span {
     background: none;
-    border-color: rgba(29, 29, 29, 0.9);
-}
-
-footer p {
-    padding-bottom: 8px;
-}
-
-@media (max-width: 568px) {
-    main figure {
-        margin: 0 8px;
-    }
-
-    main figure + figure {
-        margin-top: 6px;
-    }
-
-    menu li a, menu li span {
-        padding: 4px;
-    }
+    border-color: rgba(29, 29, 29, 0.8);
 }
