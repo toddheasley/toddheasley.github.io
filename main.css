@@ -1,0 +1,95 @@
+body {
+    -webkit-text-size-adjust: 100%;
+    background: #F7F7F7;
+    color: #222222;
+    font: 15px sans-serif;
+    letter-spacing: 0.04em;
+    margin: 0 auto;
+    max-width: 591px;
+    position: relative;
+}
+
+body * {
+    margin: 0;
+}
+
+nav {
+    height: 0;
+    margin: 0;
+    max-width: 591px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+header, article, section, footer {
+    padding: 8px 11px;
+}
+
+header {
+    font-weight: bold;
+}
+
+main section, article > * {
+    margin: 0.9em 0;
+}
+
+article h1 {
+    font-size: 1.5em;
+}
+
+article h2 {
+    color: #CCCCCC;
+    font-size: 0.8em;
+    margin: -1.3em 1px 2em 1px;
+}
+
+article figure img {
+    display: block;
+    width: 100%
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table svg {
+    display: block;
+    height: 2em;
+}
+
+td {
+    min-width: 11px;
+}
+
+a {
+    color: #0600EE;
+    text-decoration: underline;
+}
+
+a svg {
+    fill: currentColor;
+}
+
+a:active, a:hover {
+    color: #FF0100;
+}
+
+a:visited {
+    color: #55198B;
+}
+
+a:visited svg {
+    fill: #55198B;
+}
+
+@media (max-width: 420px) {
+    header, article, footer {
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    header span {
+        display: none;
+    }
+}

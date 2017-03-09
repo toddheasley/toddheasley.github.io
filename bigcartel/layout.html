@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>{% if page != 'home' %}{{ page.name }} - {% endif %}{{ store.name }}</title>
+{% if product != blank %}
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:site" content="@toddheasley">
+        <meta name="twitter:title" content="{{ product.name }}">
+        <meta name="twitter:description" content="{{ product.description }}">
+        <meta name="twitter:image" content="">
+<% else %}
+        <meta name="twitter:card" content="summary">
+        <meta name="twitter:site" content="@toddheasley">
+        <meta name="twitter:title" content="{{ store.name }}">
+        <meta name="twitter:description" content="{{ store.description }}">
+        <meta name="twitter:image" content="http://toddheasley.github.io/toddheasley.png">
+<% endif %>
+        <meta name="viewport" content="initial-scale=1.0">
+        <meta name="apple-mobile-web-app-title" content="{{ store.name }}">
+        <link rel="apple-touch-icon" href="http://toddheasley.github.io/toddheasley.png">
+        <link rel="stylesheet" href="http://toddheasley.github.io/base.css">
+        <link rel="stylesheet" href="http://toddheasley.github.io/shop.css">
+{% if theme.show_products_feed %}
+        <link rel="alternate" href="/products.rss">
+{% endif %}
+{% assign head_content = '' %}{{ head_content }}
+    </head>
+    <body>
+{% if page != 'cart' or page != 'maintenance' %}
+        <menu>
+            <menuitem><a class="shop" id="cart" href="/cart"></a></menuitem>
+        </menu>
+{% endif %}
+        <header>
+            <h1><a href="http://toddheasley.github.io"><img src="http://toddheasley.github.io/header.png" alt="{{ store.name }}"></a></h1>
+        </header>
+{{ page_content }}
+        <footer>
+            <p><a href="//bigcartel.com"><img src="{{ store.name }}/bigcartel.png" alt="Big Cartel"></a></p>
+        </footer>
+        <script src="http://toddheasley.github.io/shop.js"></script>
+    </body>
+</html>

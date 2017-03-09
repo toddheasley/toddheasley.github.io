@@ -7,26 +7,12 @@
 }
 
 .shop {
-    background: #FCFCFC;
     font: 14px "Helvetica Neue", Helvetica, sans-serif;
+    letter-spacing: 0.01em;
 }
 
 .shop * {
-    border: 0;
-    color: #646464;
     margin: 0;
-    padding: 0;
-}
-
-.shop a, a.shop {
-    color: #507B96;
-    font-weight: bold;
-    text-decoration: none;
-}
-
-.shop small {
-    color: #717C82;
-    font-size: 0.85em;
 }
 
 .shop span.select {
@@ -69,8 +55,8 @@
 
 .shop input[type=submit] {
     background: none;
-    border-color: #2B4759;
-    color: #2B4759;
+    border-color: #2E2E2E;
+    color: #2E2E2E;
     cursor: pointer;
     font-weight: bold;
     height: 52px;
@@ -89,9 +75,22 @@
     white-space: nowrap;
 }
 
+.shop a, a.shop {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a.shop svg {
+    display: block;
+    fill: #BEBEBE;
+    height: 35px;
+}
+
 section.shop {
     border-radius: 1px;
-    margin: 0 auto;
+    background: #FCFCFC;
+    margin-left: auto;
+    margin-right: auto;
     max-width: 535px;
     padding: 40px 20px;
 }
@@ -123,19 +122,36 @@ section.shop hr {
     width: 100%;
 }
 
-a#cart {
-    background: none;
+#cart {
     display: block;
     float: right;
-    padding: 10px 20px;
+    padding: 6px 11px;
 }
 
-a#cart b {
-    background: #2E2E2E;
-    border-radius: 2px;
-    color: #F7F7F7;
-    display: inline-block;
-    margin-right: 5px;
-    padding: 5px 10px;
+#cart b, #cart span {
+    display: table-cell;
+    height: 35px;
+    vertical-align: middle;
+}
+
+#cart b {
+    background: url(shop.svg);
+    color: #FCFCFC;
+    width: 35px;
     text-align: center;
+}
+
+#cart span {
+    padding-left: 8px;
+}
+
+@media (max-width: 420px) {
+    #cart {
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    #cart span {
+        display: none;
+    }
 }
