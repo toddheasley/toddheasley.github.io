@@ -2,6 +2,10 @@ var Shop = {
 
 };
 
+Shop.remove = function(id) {
+
+};
+
 Shop.update = function(html) {
     document.getElementById("cart").innerHTML = html;
 };

@@ -44,9 +44,48 @@ article h2 {
     margin: -1.3em 1px 2em 1px;
 }
 
-article figure img {
+article figure, article table {
+    background: #EEEEEE;
+    border-radius: 2px;
+    overflow: hidden;
+    width: 100%;
+}
+
+article td {
+    padding: 0;
+    vertical-align: top;
+}
+
+article td.figure {
+    background: #DEDEDE;
+    width: 200px;
+}
+
+article figure img, article td img {
     display: block;
     width: 100%
+}
+
+article td b {
+    display: block;
+    margin: 8px;
+}
+
+article figure figcaption, article td small {
+    color: #CCCCCC;
+    display: block;
+    font-size: 0.8em;
+    margin: 8px;
+}
+
+article figure figcaption a, article figure figcaption a:visited {
+    color: inherit;
+}
+
+img.app {
+    display: block;
+    height: 40px;
+    margin: 2em 0;
 }
 
 table {
