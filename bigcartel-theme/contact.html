@@ -1,0 +1,6 @@
+{% if cart.items != blank %}
+Shop.update('<b>{{ cart.item_count }}</b> <span>${{ cart.total | money }}</span>');
+{% else %}
+Shop.update('');
+{% endif %}
+// <head>{% assign head_content = '' %}{{ head_content }}</head>
