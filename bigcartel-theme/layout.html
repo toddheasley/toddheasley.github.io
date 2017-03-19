@@ -1,15 +1,13 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>{% if page != 'home' %}{{ page.name }} - {% endif %}Todd Heasley</title>{% assign head_content = '' %}{{ head_content }}
-        <meta name="viewport" content="initial-scale=1.0">
-{% if product != blank %}
+        <title>{% if product != blank %}{{ product.name }} - {% endif %}Todd Heasley</title>{% assign head_content = '' %}{{ head_content }}
+        <meta name="viewport" content="initial-scale=1.0">{% if product != blank %}
         <meta name="twitter:card" content="summary_large_image">
         <meta name="twitter:site" content="@toddheasley">
         <meta name="twitter:title" content="{{ product.name }}">
         <meta name="twitter:description" content="{{ product.description }}">
-        <meta name="twitter:image" content="{{ product.image | product_image_url }}">
-<% endif %>
+        <meta name="twitter:image" content="{{ product.image | product_image_url | constrain: 840, 840 }}">{% endif %}
         <meta name="apple-mobile-web-app-title" content="Todd Heasley">
         <link rel="apple-touch-icon" href="http://toddheasley.github.io/toddheasley.png">
         <link rel="stylesheet" href="http://toddheasley.github.io/main.css">
@@ -17,7 +15,7 @@
     </head>
     <body>
         <nav>
-            <a id="cart" class="shop" href="https://toddheasley.bigcartel.com/cart"></a>
+            <a id="cart" class="shop" href="/cart"></a>
         </nav>
         <header>
             <table>

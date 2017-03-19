@@ -38,6 +38,11 @@ article h1 {
     font-size: 1.5em;
 }
 
+article h1 img {
+    display: block;
+    width: 100%;
+}
+
 article h2 {
     color: #CCCCCC;
     font-size: 0.8em;
