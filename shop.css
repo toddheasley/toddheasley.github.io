@@ -12,6 +12,7 @@
 }
 
 .shop * {
+    border: 0;
     margin: 0;
 }
 
@@ -58,7 +59,6 @@
     border-color: #2E2E2E;
     color: #2E2E2E;
     cursor: pointer;
-    font-weight: bold;
     height: 52px;
 }
 

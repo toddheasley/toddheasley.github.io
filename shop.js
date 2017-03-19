@@ -1,5 +1,5 @@
 var Shop = {
-
+    
 };
 
 Shop.update = function(html) {
