@@ -122,10 +122,24 @@ section.shop hr {
     width: 100%;
 }
 
-#cart {
-    display: block;
+body.shop {
+    margin: 0;
+    padding: 0;
+}
+
+iframe {
+    border: 0;
     float: right;
-    padding: 6px 11px;
+    height: 48px;
+    margin-right: 11px;
+    width: 120px;
+}
+
+#cart {
+    display: inline-block;
+    float: right;
+    margin-top: 6px;
+    text-align: right;
 }
 
 #cart b, #cart span {
@@ -146,11 +160,13 @@ section.shop hr {
 }
 
 @media (max-width: 420px) {
-    #cart {
-        padding-left: 8px;
-        padding-right: 8px;
+    iframe {
+        margin-right: 8px;
+        width: 60px;
     }
+}
 
+@media (max-width: 119px) {
     #cart span {
         display: none;
     }
