@@ -6,9 +6,13 @@ Todd Heasley
 
 WORK EXPERIENCE
 
+**iOS Developer, [Dark Sky](https://darksky.net)**  
+Cambridge, MA  
+_May 2017 -_  
+
 **iOS Developer, [Big Cartel](https://bigcartel.com)**  
 Salt Lake City, UT  
-_October 2013 -_  
+_October 2013 - April 2017_  
 Launched and currently develop [Big Cartel for iOS](https://help.bigcartel.com/apps/big-cartel-ios/), including:
 
 * Native Cocoa app written in Objective-C and completely rewritten in Swift
