@@ -13,13 +13,12 @@ _May 2017 -_
 **iOS Developer, [Big Cartel](https://bigcartel.com)**  
 Salt Lake City, UT  
 _October 2013 - April 2017_  
-Launched and currently develop [Big Cartel for iOS](https://help.bigcartel.com/apps/big-cartel-ios/), including:
+Launched and grew [Big Cartel iOS](https://help.bigcartel.com/apps/big-cartel-ios/) into a fully featured administration interface for online shops, including:
 
 * Native Cocoa app written in Objective-C and completely rewritten in Swift
 * Universal iPhone/iPad support via adaptive layout and size classes
 * Modular, framework-based architecture
 * Integration with both Stripe and Square for accepting in-person credit card and contactless payments
-* Fully featured administration interface for managing products and orders
 
 [I spoke at Seattle Xcoders](https://vimeo.com/98087711) about the design process at Big Cartel
 
