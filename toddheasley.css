@@ -30,6 +30,12 @@ header {
     font-weight: bold;
 }
 
+footer a svg, footer a:visited svg {
+    display: block;
+    fill: #BEBEBE;
+    height: 2em;
+}
+
 main section, article > * {
     margin: 0.9em 0;
 }
