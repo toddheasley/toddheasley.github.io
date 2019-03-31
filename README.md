@@ -14,7 +14,7 @@ _May 2017 - December 2018_
 Redesigned [my favorite weather app](https://itunes.apple.com/app/apple-store/id517329357?pt=244848&mt=8) from the ground up:
 
 * Unified design language across iOS, Android and web
-* Programmatically composeable weather iconography by [Iconfactory](https://iconfactory.com)
+* Programmatically compose-able weather iconography by [Iconfactory](https://iconfactory.com)
 * Modular, framework-based Swift architecture
 * Swift interoperability with shared C++ frameworks
 * Streamlined deployment workflow and automated testing 

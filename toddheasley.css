@@ -1,145 +1,107 @@
-body {
+:root {
+    --background: rgb(251, 251, 251);
+    --color: rgb(44, 44, 44);
+    --link: rgb(0, 0, 251);
+    --visited: rgb(0, 251, 0);
+    --active: rgb(251, 0, 0);
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --background: rgb(44, 44, 44);
+        --color: rgb(238, 238, 238);
+        --link: rgb(0, 0, 251);
+        --visited: rgb(0, 251, 0);
+        --active: rgb(251, 0, 0);
+    }
+}
+
+* {
     -webkit-text-size-adjust: 100%;
-    background: #F7F7F7;
-    color: #222222;
-    font: 15px sans-serif;
-    letter-spacing: 0.04em;
-    margin: 0 auto;
-    max-width: 591px;
-    position: relative;
-}
-
-body * {
     margin: 0;
-}
-
-nav {
-    height: 0;
-    margin: 0;
-    max-width: 591px;
-    position: fixed;
-    top: 0;
-    width: 100%;
-}
-
-header, article, section, footer {
-    padding: 8px 11px;
-}
-
-header {
-    font-weight: bold;
-}
-
-footer a svg, footer a:visited svg {
-    display: block;
-    fill: #BEBEBE;
-    height: 2em;
-}
-
-main section, article > * {
-    margin: 0.9em 0;
-}
-
-article h1 {
-    font-size: 1.5em;
-}
-
-article h1 img {
-    display: block;
-    width: 100%;
-}
-
-article h2 {
-    color: #CCCCCC;
-    font-size: 0.8em;
-    margin: -1.3em 1px 2em 1px;
-}
-
-article figure, article table {
-    background: #EEEEEE;
-    border-radius: 2px;
-    overflow: hidden;
-    width: 100%;
-}
-
-article td {
     padding: 0;
-    vertical-align: top;
-}
-
-article td.figure {
-    background: #DEDEDE;
-    width: 200px;
-}
-
-article figure img, article td img {
-    display: block;
-    width: 100%
-}
-
-article td b {
-    display: block;
-    margin: 8px;
-}
-
-article figure figcaption, article td small {
-    color: #CCCCCC;
-    display: block;
-    font-size: 0.8em;
-    margin: 8px;
-}
-
-article figure figcaption a, article figure figcaption a:visited {
-    color: inherit;
-}
-
-img.app {
-    display: block;
-    height: 40px;
-    margin: 2em 0;
-}
-
-table {
-    border-collapse: collapse;
-}
-
-table svg {
-    display: block;
-    height: 2em;
-}
-
-td {
-    min-width: 11px;
 }
 
 a {
-    color: #0600EE;
-    text-decoration: underline;
+    color: inherit;
+    text-decoration: none;
 }
 
-a svg {
-    fill: currentColor;
-}
-
-a:active, a:hover {
-    color: #FF0100;
+a:link {
+    /* color: var(--link); */
 }
 
 a:visited {
-    color: #55198B;
+    /* color: var(--visited); */
 }
 
-a:visited svg {
-    fill: #55198B;
+a:active, a:hover {
+    /* color: var(--active); */
+}
+
+body {
+    background: var(--background);
+    color: var(--color);
+    font: 16px sans-serif;
+    letter-spacing: 0.06em;
+    margin: 0 auto;
+    max-width: 630px;
+    padding: 16px 12px 24px 12px;
+    position: relative;
 }
 
 @media (max-width: 420px) {
-    header, article, footer {
-        padding-left: 8px;
-        padding-right: 8px;
+    body {
+        padding: 16px 8px 32px 8px;
     }
+}
 
-    header span {
-        display: none;
-    }
+figure {
+    background: rgba(180, 180, 180, 0.2);
+    border-radius: 7px;
+    margin: 24px 0;
+    overflow: hidden;
+}
+
+figure a figcaption {
+    opacity: 0.9;
+}
+
+figure figcaption {
+    font-size: 14px;
+    opacity: 0.6;
+    padding: 12px;
+}
+
+figure figcaption b {
+    display: inline-block;
+    font-size: 16px;
+    margin-bottom: 4px;
+}
+
+figure img {
+    display: block;
+    width: 100%;
+}
+
+header h1 {
+    font-size: 1em;
+}
+
+main {
+    margin: 24px 0;
+}
+
+main h1 {
+    font-size: 24px;
+}
+
+main h2 {
+    font-size: 18px;
+    margin-top: 4px;
+    opacity: 0.6;
+}
+
+main p {
+    margin: 24px 0;
 }
