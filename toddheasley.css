@@ -1,18 +1,18 @@
 :root {
     --background: rgb(251, 251, 251);
     --color: rgb(44, 44, 44);
-    --link: rgb(0, 0, 251);
-    --visited: rgb(0, 251, 0);
-    --active: rgb(251, 0, 0);
+    --link: rgb(9, 63, 234);
+    --visited: rgb(103, 33, 165);
+    --active: rgb(252, 13, 27);
 }
 
 @media (prefers-color-scheme: dark) {
     :root {
         --background: rgb(44, 44, 44);
         --color: rgb(238, 238, 238);
-        --link: rgb(0, 0, 251);
-        --visited: rgb(0, 251, 0);
-        --active: rgb(251, 0, 0);
+        --link: rgb(21, 126, 251);
+        --visited: rgb(156, 156, 156);
+        --active: rgb(90, 191, 252);
     }
 }
 
@@ -28,15 +28,15 @@ a {
 }
 
 a:link {
-    /* color: var(--link); */
+    color: var(--link);
 }
 
 a:visited {
-    /* color: var(--visited); */
+    color: var(--visited);
 }
 
 a:active, a:hover {
-    /* color: var(--active); */
+    color: var(--active);
 }
 
 body {
