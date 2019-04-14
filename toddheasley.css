@@ -1,6 +1,7 @@
 :root {
     --background: rgb(251, 251, 251);
     --color: rgb(44, 44, 44);
+    --figure: rgba(180, 180, 180, 0.2);
     --link: rgb(9, 63, 234);
     --visited: rgb(103, 33, 165);
     --active: rgb(252, 13, 27);
@@ -57,7 +58,7 @@ body {
 }
 
 figure {
-    background: rgba(180, 180, 180, 0.2);
+    background: var(--figure);
     border-radius: 7px;
     margin: 24px 0;
     overflow: hidden;
@@ -84,8 +85,23 @@ figure img {
     width: 100%;
 }
 
+figure > span {
+    border: 1px solid var(--figure);
+    border-radius: 8px;
+    display: block;
+    overflow: hidden;
+    position: relative;
+}
+
 header h1 {
     font-size: 1em;
+}
+
+iframe {
+    border: 0;
+    display: block;
+    height: 540px;
+    width: 100%;
 }
 
 main {
