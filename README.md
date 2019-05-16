@@ -7,8 +7,14 @@
 
 ## Work
 
+__Software Engineer, [Big Cartel](https://bigcartel.com)__  
+Salt Lake City, UT `Remote`  
+_June 2019 -_
+
+
+
 __iOS Developer, [Dark Sky](https://darksky.net)__  
-Cambridge, MA `Remote`   
+Cambridge, MA `Remote`  
 _May 2017 - December 2018_
 
 Redesigned [my favorite weather app](https://itunes.apple.com/app/apple-store/id517329357?pt=244848&mt=8) from the ground up:
@@ -31,7 +37,7 @@ Launched and grew [Big Cartel iOS](https://help.bigcartel.com/apps/big-cartel-io
 
 [Spoke at Seattle Xcoders](https://vimeo.com/98087711) about the design process at Big Cartel
 
-__Senior Mobile/iOS Developer, [Urban Outfitters](http://urbanoutfitters.com/)__  
+__Senior Mobile Developer, [Urban Outfitters](http://urbanoutfitters.com/)__  
 Philadelphia, PA  
 _May 2008 - September 2013_
 
