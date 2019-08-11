@@ -3,7 +3,7 @@
 [toddheasley.github.io](https://toddheasley.github.io)  
 [toddheasley@me.com](mailto:toddheasley@me.com)  
 [+1 (610) 996-3333](tel:16109963333)  
-[@toddheasley](https://twitter.com/toddheasley)
+[@toddheasley](https://github.com/toddheasley)
 
 ## Work
 
