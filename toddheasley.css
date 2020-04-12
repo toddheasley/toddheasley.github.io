@@ -2,19 +2,15 @@
     --background: rgb(251, 251, 251);
     --color: rgb(44, 44, 44);
     --figure: rgba(180, 180, 180, 0.2);
-    --link: rgb(9, 63, 234);
-    --visited: rgb(103, 33, 165);
-    --active: rgb(252, 13, 27);
+    --link: rgb(3, 102, 214);
+    --visited: rgb(156, 156, 156);
 }
 
 @media (prefers-color-scheme: dark) {
     :root {
         --background: rgb(44, 44, 44);
         --color: rgb(238, 238, 238);
-        --link: rgb(21, 126, 251);
-        --visited: rgb(156, 156, 156);
-        --active: rgb(90, 191, 252);
-    }
+    }    
 }
 
 * {
@@ -36,10 +32,6 @@ a:visited {
     color: var(--visited);
 }
 
-a:active, a:hover {
-    color: var(--active);
-}
-
 body {
     background: var(--background);
     color: var(--color);
@@ -47,7 +39,7 @@ body {
     letter-spacing: 0.06em;
     margin: 0 auto;
     max-width: 630px;
-    padding: 16px 12px 24px 12px;
+    padding: 16px 11px 24px 11px;
     position: relative;
 }
 
@@ -97,13 +89,6 @@ header h1 {
     font-size: 1em;
 }
 
-iframe {
-    border: 0;
-    display: block;
-    height: 540px;
-    width: 100%;
-}
-
 main {
     margin: 24px 0;
 }
@@ -120,4 +105,22 @@ main h2 {
 
 main p {
     margin: 24px 0;
+}
+
+span img:first-child {
+    display: inherit;
+}
+
+span img:last-child {
+    display: none;
+}
+
+@media (prefers-color-scheme: dark) {
+    span img:first-child {
+        display: none;
+    }
+    
+    span img:last-child {
+        display: inherit;
+    }
 }
