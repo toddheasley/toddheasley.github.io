@@ -51,7 +51,7 @@ body {
 
 figure {
     background: var(--figure);
-    border-radius: 7px;
+    border-radius: 6px;
     margin: 24px 0;
     overflow: hidden;
 }
@@ -77,9 +77,7 @@ figure img {
     width: 100%;
 }
 
-figure > span {
-    border: 1px solid var(--figure);
-    border-radius: 8px;
+figure span {
     display: block;
     overflow: hidden;
     position: relative;
