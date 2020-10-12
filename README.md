@@ -11,7 +11,14 @@ __Software Engineer, [Big Cartel](https://bigcartel.com)__
 Salt Lake City, UT `Remote`  
 _June 2019 -_
 
+Joined a multi-year effort to significantly refactor Big Cartel around a robust new [GraphQL](https://graphql.org) API and restore native interfaces to both iOS and Android apps.
 
+Developed the next-generation version of [Big Cartel iOS](https://help.bigcartel.com/apps/big-cartel-ios/) 
+
+Swift Package Manager
+GraphQL
+Swift Combine
+Blend of shared UIKit and SwiftUI
 
 __iOS Developer, [Dark Sky](https://darksky.net)__  
 Cambridge, MA `Remote`  
