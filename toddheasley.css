@@ -1,15 +1,15 @@
 :root {
-    --background: rgb(251, 251, 251);
-    --color: rgb(44, 44, 44);
-    --figure: rgba(180, 180, 180, 0.2);
-    --link: rgb(3, 102, 214);
-    --visited: rgb(156, 156, 156);
+    --background: #FBFBFB;
+    --color: #2C2C2C;
+    --figure: #B4B4B433;
+    --link: #0366D6;
+    --visited: #9C9C9C;
 }
 
 @media (prefers-color-scheme: dark) {
     :root {
-        --background: rgb(44, 44, 44);
-        --color: rgb(238, 238, 238);
+        --background: #2C2C2C;
+        --color: #EEEEEE;
     }    
 }
 
