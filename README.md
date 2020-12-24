@@ -1,6 +1,6 @@
 # Todd Heasley
 
-[toddheasley.github.io](https://toddheasley.github.io)  
+[toddheasley.com](https://toddheasley.com)  
 [toddheasley@me.com](mailto:toddheasley@me.com)  
 [+1 (610) 996-3333](tel:16109963333)  
 [@toddheasley](https://github.com/toddheasley)
@@ -11,20 +11,13 @@ __Software Engineer, [Big Cartel](https://bigcartel.com)__
 Salt Lake City, UT `Remote`  
 _June 2019 -_
 
-Joined a multi-year effort to significantly refactor Big Cartel around a robust new [GraphQL](https://graphql.org) API and restore native interfaces to both iOS and Android apps.
-
-Developed the next-generation version of [Big Cartel iOS](https://help.bigcartel.com/apps/big-cartel-ios/) 
-
-Swift Package Manager
-GraphQL
-Swift Combine
-Blend of shared UIKit and SwiftUI
+Joined a multi-year effort to significantly refactor Big Cartel around a robust new [GraphQL](https://graphql.org) API and restore native interfaces to both iOS and Android apps
 
 __iOS Developer, [Dark Sky](https://darksky.net)__  
 Cambridge, MA `Remote`  
 _May 2017 - December 2018_
 
-Redesigned [my favorite weather app](https://itunes.apple.com/app/apple-store/id517329357?pt=244848&mt=8) from the ground up:
+Redesigned [my favorite weather app](https://apps.apple.com/app/apple-store/id517329357) from the ground up:
 
 * Unified design language across iOS, Android and web
 * Programmatically composable weather iconography by [Iconfactory](https://iconfactory.com)
@@ -48,7 +41,7 @@ __Senior Mobile Developer, [Urban Outfitters](http://urbanoutfitters.com/)__
 Philadelphia, PA  
 _May 2008 - September 2013_
 
-Developed and launched the first two major versions of [UO's iPhone app](https://itunes.apple.com/us/app/urban-outfitters/id358821736?mt=8), which included:
+Developed and launched the first two major versions of [UO's iPhone app](https://apps.apple.com/us/app/urban-outfitters/id358821736), which included:
 
 * Completely native shopping and checkout experience
 * UO Radio, a bespoke iTunes-based streaming music service
@@ -68,7 +61,7 @@ __Web Developer, [Free Library of Philadelphia](http://freelibrary.org)__
 Philadelphia, PA  
 _June 2007 - May 2008_
 
-Working in digital collections, developed and launched the [Free Library Podcast](https://libwww.freelibrary.org/podcast/), including:
+Working in digital collections, developed and launched the [Free Library Podcast](https://libwww.freelibrary.org/podcast), including:
 
 * Workflow for digitizing, editing and compressing audio and video
 * Content management system and RSS feeds
