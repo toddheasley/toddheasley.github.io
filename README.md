@@ -1,6 +1,5 @@
 # Todd Heasley
-
-[toddheasley.com](https://toddheasley.com)  
+  
 [toddheasley@me.com](mailto:toddheasley@me.com)  
 [+1 (610) 996-3333](tel:16109963333)  
 [@toddheasley](https://github.com/toddheasley)
