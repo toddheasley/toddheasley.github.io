@@ -1,16 +1,15 @@
 :root {
-    --background: #FBFBFB;
-    --color: #2C2C2C;
-    --figure: #B4B4B433;
-    --link: #0366D6;
-    --visited: #9C9C9C;
+    --background: rgb(251, 251, 251);
+    --color: rgb(44, 44, 44);
+    --figure: rgba(99, 99, 99, 0.1);
+    --link: rgb(5, 115, 225);
 }
 
 @media (prefers-color-scheme: dark) {
     :root {
-        --background: #2C2C2C;
-        --color: #EEEEEE;
-    }    
+        --background: rgb(25, 25, 25);
+        --color: rgb(242, 242, 242);
+    }
 }
 
 * {
@@ -20,23 +19,19 @@
 }
 
 a {
-    color: inherit;
+    color: var(--link);
     text-decoration: none;
 }
 
-a:link {
-    color: var(--link);
-}
-
-a:visited {
-    color: var(--visited);
+a:active {
+    opacity: 0.5;
 }
 
 body {
     background: var(--background);
     color: var(--color);
-    font: 16px sans-serif;
-    letter-spacing: 0.06em;
+    font: 16px ui-sans-serif, sans-serif;
+    letter-spacing: 0.05em;
     margin: 0 auto;
     max-width: 630px;
     padding: 16px 11px 24px 11px;
@@ -51,18 +46,21 @@ body {
 
 figure {
     background: var(--figure);
-    border-radius: 6px;
+    border-radius: 7px;
     margin: 24px 0;
     overflow: hidden;
 }
 
 figure a figcaption {
-    opacity: 0.9;
+    color: var(--color);
+}
+
+figure a figcaption b {
+    color: var(--link);
 }
 
 figure figcaption {
     font-size: 14px;
-    opacity: 0.6;
     padding: 12px;
 }
 
@@ -84,7 +82,7 @@ figure span {
 }
 
 header h1 {
-    font-size: 1em;
+    font-size: 16px;
 }
 
 main {
