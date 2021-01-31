@@ -75,7 +75,7 @@ __Contract Photo Editor, [AOL](http://aol.com)__
 Philadelphia, PA  
 _February 2002 - February 2003_
 
-Created my first app, a web-based tool for managing and optimizing web graphics and generating animated GIFS
+Created my first app, a web-based tool for managing and optimizing web graphics and generating animated GIFs
 
 __Web Developer, Threshold Entertainment__  
 Santa Monica, CA  
