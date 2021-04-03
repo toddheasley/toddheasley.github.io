@@ -61,6 +61,7 @@ figure a figcaption b {
 
 figure figcaption {
     font-size: 14px;
+    opacity: 0.8;
     padding: 12px;
 }
 
@@ -81,8 +82,20 @@ figure span {
     position: relative;
 }
 
+figure > span {
+    border: 1px solid var(--figure);
+    border-radius: 7px;
+}
+
 header h1 {
     font-size: 16px;
+}
+
+iframe {
+    border: 0;
+    display: block;
+    height: 630px;
+    width: 100%;
 }
 
 main {
