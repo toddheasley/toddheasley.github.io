@@ -10,7 +10,7 @@ __Software Engineer, [Big Cartel](https://bigcartel.com)__
 Salt Lake City, UT `Remote`  
 _June 2019 -_
 
-Joined a multi-year effort to significantly refactor Big Cartel around a robust new [GraphQL](https://graphql.org) API and restore native interfaces to both iOS and Android apps
+Joined a multi-year effort to significantly refactor Big Cartel around a robust new [GraphQL](https://graphql.org) API and restore native interfaces to both iOS and Android apps.
 
 __iOS Developer, [Dark Sky](https://darksky.net)__  
 Cambridge, MA `Remote`  
@@ -34,7 +34,7 @@ Launched and grew [Big Cartel iOS](https://help.bigcartel.com/apps/big-cartel-io
 * Universal iPhone/iPad support via adaptive layout and size classes
 * Seamless transition from Objective-C to Swift between major versions 2 and 3
 
-[Spoke at Seattle Xcoders](https://vimeo.com/98087711) about the design process at Big Cartel
+[Spoke at Seattle Xcoders](https://vimeo.com/98087711) about the design process at Big Cartel.
 
 __Senior Mobile Developer, [Urban Outfitters](http://urbanoutfitters.com/)__  
 Philadelphia, PA  
@@ -54,7 +54,7 @@ Led development of the first unified, responsive version of [urbanoutfitters.com
 * Lightweight responsive HTML and CSS
 * Progressive approach to JavaScript enhancement
 
-Assembled and mentored a development team, setting coding standards, refining development/testing/deployment workflows, reviewing code and guiding application design decisions
+Assembled and mentored a development team, setting coding standards, refining development/testing/deployment workflows, reviewing code and guiding application design decisions.
 
 __Web Developer, [Free Library of Philadelphia](http://freelibrary.org)__  
 Philadelphia, PA  
@@ -69,19 +69,19 @@ __Web Editor, [AOL](http://aol.com)__
 Santa Monica, CA and New York, NY `Remote`  
 _June 2003 - March 2007_
 
-Designed, wrote and coded web pages for an assortment of AOL content channels
+Designed, wrote and coded web pages for an assortment of AOL content channels.
 
 __Contract Photo Editor, [AOL](http://aol.com)__  
 Philadelphia, PA  
 _February 2002 - February 2003_
 
-Created my first app, a web-based tool for managing and optimizing web graphics and generating animated GIFs
+Created my first app, a web-based tool for managing and optimizing web graphics and generating animated GIFs.
 
 __Web Developer, Threshold Entertainment__  
 Santa Monica, CA  
 _January 2001 - September 2001_
 
-Designed and coded sites for [Ozzy Osbourne](https://ozzy.com) and [Ozzfest](https://ozzfest.com)
+Designed and coded sites for [Ozzy Osbourne](https://ozzy.com) and [Ozzfest.](https://ozzfest.com)
 
 ## Education
 
