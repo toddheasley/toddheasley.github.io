@@ -1,5 +1,5 @@
 :root {
-    --background: rgb(251, 251, 251);
+    --background: rgb(251, 251, 247);
     --color: rgb(44, 44, 44);
     --figure: rgba(99, 99, 99, 0.1);
     --link: rgb(5, 115, 225);
@@ -7,7 +7,7 @@
 
 @media (prefers-color-scheme: dark) {
     :root {
-        --background: rgb(25, 25, 25);
+        --background: rgb(25, 25, 28);
         --color: rgb(242, 242, 242);
     }
 }
@@ -34,13 +34,14 @@ body {
     letter-spacing: 0.05em;
     margin: 0 auto;
     max-width: 630px;
-    padding: 16px 11px 24px 11px;
+    padding: 16px 11px calc(32px + env(safe-area-inset-bottom)) 11px;
     position: relative;
 }
 
 @media (max-width: 420px) {
     body {
-        padding: 16px 8px 32px 8px;
+        padding-left: 8px;
+        padding-right: 8px;
     }
 }
 
