@@ -6,6 +6,12 @@
 
 ## Work
 
+__Senior Software Development Engineer, [onX](https://www.onxmaps.com)__  
+Missoula, MT `Remote`  
+_September 2021 -_
+
+Current location
+
 __Software Engineer, [Big Cartel](https://bigcartel.com)__  
 Salt Lake City, UT `Remote`  
 _June 2019 - August 2021_
