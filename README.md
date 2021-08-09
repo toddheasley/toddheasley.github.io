@@ -8,25 +8,25 @@
 
 __Senior Software Development Engineer, [onX](https://www.onxmaps.com)__  
 Missoula, MT `Remote`  
-_September 2021 -_
+_September 2021-_
 
 Current location
 
 __Software Engineer, [Big Cartel](https://bigcartel.com)__  
 Salt Lake City, UT `Remote`  
-_June 2019 - August 2021_
+_June 2019-August 2021_
 
 Rebuilt [Big Cartel iOS](https://apps.apple.com/app/id739285899) for speed and ease of use:
 
 * Drafts/versioning for products and themes, enabling incremental, anxiety-free editing
-* Restored native user interface, replacing [Turbolinks](https://basecamp.com/about/software) with a modern mix of UIKit and SwiftUI
+* Restored native user interface, replacing Turbolinks with a modern mix of UIKit and SwiftUI
 * Baked-in support for VoiceOver and Dynamic Type
 * Package-based architecture cleanly separates the app into maintainable libraries
-* All powered by a new [GraphQL](https://graphql.org) API
+* All powered by a new GraphQL API
 
 __iOS Developer, [Dark Sky](https://darksky.net)__  
 Cambridge, MA `Remote`  
-_May 2017 - December 2018_
+_May 2017-December 2018_
 
 Redesigned [my favorite weather app](https://apps.apple.com/app/id517329357) from the ground up:
 
@@ -38,7 +38,7 @@ Redesigned [my favorite weather app](https://apps.apple.com/app/id517329357) fro
 
 __iOS Developer, [Big Cartel](https://bigcartel.com)__  
 Salt Lake City, UT `Remote`  
-_October 2013 - April 2017_
+_October 2013-April 2017_
 
 Launched and grew [Big Cartel iOS](https://apps.apple.com/app/id739285899) into a fully featured admin interface for online shops, including:
 
@@ -50,7 +50,7 @@ Launched and grew [Big Cartel iOS](https://apps.apple.com/app/id739285899) into 
 
 __Senior Mobile Developer, [Urban Outfitters](https://urbanoutfitters.com)__  
 Philadelphia, PA  
-_May 2008 - September 2013_
+_May 2008-September 2013_
 
 Developed and launched the first two major versions of [UO's iPhone app](https://apps.apple.com/app/id358821736), which included:
 
@@ -70,7 +70,7 @@ Assembled and mentored a development team, setting coding standards, refining de
 
 __Web Developer, [Free Library of Philadelphia](https://freelibrary.org)__  
 Philadelphia, PA  
-_June 2007 - May 2008_
+_June 2007-May 2008_
 
 Working in digital collections, developed and launched the [Free Library Podcast](https://libwww.freelibrary.org/podcast), including:
 
@@ -79,23 +79,23 @@ Working in digital collections, developed and launched the [Free Library Podcast
 
 __Web Editor, [AOL](https://aol.com)__  
 Santa Monica, CA and New York, NY `Remote`  
-_June 2003 - March 2007_
+_June 2003-March 2007_
 
 Designed, wrote and coded web pages for an assortment of AOL content channels.
 
 __Contract Photo Editor, [AOL](https://aol.com)__  
 Philadelphia, PA  
-_February 2002 - February 2003_
+_February 2002-February 2003_
 
 Created my first app, a web-based tool for managing and optimizing web graphics and generating animated GIFs.
 
 __Web Developer, Threshold Entertainment__  
 Santa Monica, CA  
-_January 2001 - September 2001_
+_January 2001-September 2001_
 
 Designed and coded sites for [Ozzy Osbourne](https://ozzy.com) and [Ozzfest.](https://ozzfest.com)
 
 ## Education
 
 __BA Integrative Arts, [Pennsylvania State University](https://psu.edu)__  
-_June 1996 - December 2000_
+_June 1996-December 2000_
