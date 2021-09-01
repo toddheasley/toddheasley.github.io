@@ -22,7 +22,7 @@ Rebuilt [Big Cartel iOS](https://apps.apple.com/app/id739285899) for speed and e
 * Restored native user interface, replacing Turbolinks with a modern mix of UIKit and SwiftUI
 * Baked-in support for VoiceOver and Dynamic Type
 * Package-based architecture cleanly separates the app into maintainable libraries
-* All powered by a new GraphQL API
+* All powered by GraphQL and Swift Combine
 
 __iOS Developer, [Dark Sky](https://darksky.net)__  
 Cambridge, MA `Remote`  
