@@ -6,6 +6,12 @@
 
 ## Work
 
+__Mobile Director, [Hodinkee](https://www.hodinkee.com)__  
+New York, NY `Remote`  
+_November 2021—_
+
+Watch this space.
+
 __Software Engineer, [Big Cartel](https://bigcartel.com)__  
 Salt Lake City, UT `Remote`  
 _June 2019-August 2021_
