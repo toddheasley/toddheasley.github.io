@@ -24,9 +24,14 @@ Rebuilt [Big Cartel iOS](https://apps.apple.com/app/id739285899) for speed and e
 * Package-based architecture cleanly separates the app into maintainable libraries
 * All powered by GraphQL and Swift Combine
 
+![](docs/bigcartel-app-hero.png)
+
+
 __iOS Developer, [Dark Sky](https://darksky.net)__  
 Cambridge, MA `Remote`  
 _May 2017-December 2018_
+
+![](docs/darksky-app-hero.jpg)
 
 Redesigned [my favorite weather app](https://apps.apple.com/app/id517329357) from the ground up:
 
@@ -58,6 +63,8 @@ Developed and launched the first two major versions of [UO's iPhone app](https:/
 * UO Radio, a bespoke iTunes-based streaming music service
 * Push notifications delivered by a from-scratch APNs provider
 * Direct-to-device iTunes music downloads
+
+![](docs/uo-app-hero.jpg)
 
 Led development of the first unified, responsive version of [urbanoutfitters.com](https://urbanoutfitters.com), including:
 
