@@ -11,7 +11,9 @@ New York, NY `Remote`
 _November 2021—_
 
 Watch this space.
+
 -----
+
 __Software Engineer, [Big Cartel](https://bigcartel.com)__  
 Salt Lake City, UT `Remote`  
 _June 2019-August 2021_
@@ -25,7 +27,9 @@ Rebuilt [Big Cartel iOS](https://apps.apple.com/app/id739285899) for speed and e
 * All powered by GraphQL and Swift Combine
 
 ![](docs/bigcartel-app-hero.png)
+
 -----
+
 __iOS Developer, [Dark Sky](https://darksky.net)__  
 Cambridge, MA `Remote`  
 _May 2017-December 2018_
@@ -39,7 +43,9 @@ Redesigned [my favorite weather app](https://apps.apple.com/app/id517329357) fro
 * Modular, framework-based Swift architecture
 * Swift interoperability with shared C++ frameworks
 * Streamlined deployment workflow and automated testing 
+
 -----
+
 __iOS Developer, [Big Cartel](https://bigcartel.com)__  
 Salt Lake City, UT `Remote`  
 _October 2013-April 2017_
@@ -51,7 +57,9 @@ Launched and grew [Big Cartel iOS](https://apps.apple.com/app/id739285899) into 
 * Seamless transition from Objective-C to Swift between major versions 2 and 3
 
 [Spoke at Seattle Xcoders](https://vimeo.com/98087711) about the design process at Big Cartel.
+
 -----
+
 __Senior Mobile Developer, [Urban Outfitters](https://urbanoutfitters.com)__  
 Philadelphia, PA  
 _May 2008-September 2013_
@@ -73,7 +81,9 @@ Led development of the first unified, responsive version of [urbanoutfitters.com
 * Progressive approach to JavaScript enhancement
 
 Assembled and mentored a development team, setting coding standards, refining development/testing/deployment workflows, reviewing code and guiding application design decisions.
+
 -----
+
 __Web Developer, [Free Library of Philadelphia](https://freelibrary.org)__  
 Philadelphia, PA  
 _June 2007-May 2008_
@@ -82,19 +92,25 @@ Working in digital collections, developed and launched the [Free Library Podcast
 
 * Workflow for digitizing, editing and compressing audio and video
 * Content management system and RSS feeds
+
 -----
+
 __Web Editor, [AOL](https://aol.com)__  
 Santa Monica, CA and New York, NY `Remote`  
 _June 2003-March 2007_
 
 Designed, wrote and coded web pages for an assortment of AOL content channels.
+
 -----
+
 __Contract Photo Editor, [AOL](https://aol.com)__  
 Philadelphia, PA  
 _February 2002-February 2003_
 
 Made my first app, a web-based tool for managing and optimizing web graphics and generating animated GIFs.
+
 -----
+
 __Web Developer, Threshold Entertainment__  
 Santa Monica, CA  
 _January 2001-September 2001_
