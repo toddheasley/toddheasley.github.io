@@ -71,7 +71,7 @@ Developed and launched the first two major versions of [UO's iPhone app](https:/
 * Push notifications delivered by a from-scratch APNs provider
 * Direct-to-device iTunes music downloads
 
-![](docs/uo-app-hero.jpg)
+![](docs/uo-app-hero.png)
 
 Led development of the first unified, responsive version of [urbanoutfitters.com](https://urbanoutfitters.com), including:
 
