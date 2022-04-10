@@ -42,7 +42,7 @@ Redesigned [my favorite weather app](https://apps.apple.com/app/id517329357) fro
 * Programmatically composable weather iconography by [Iconfactory](https://iconfactory.com)
 * Modular, framework-based Swift architecture
 * Swift interoperability with shared C++ frameworks
-* Streamlined deployment workflow and automated testing 
+* Streamlined deployment workflow and automated testing
 
 -----
 
