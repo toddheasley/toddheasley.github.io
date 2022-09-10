@@ -8,7 +8,7 @@
 
 __Mobile Director, [Hodinkee](https://www.hodinkee.com)__  
 New York, NY `Remote`  
-_November 2021—_September 2022_
+_November 2021—September 2022_
 
 Led design, development and release of [Android](https://play.google.com/store/apps/details?id=com.hodinkee.zeitwerk) and [iOS](https://apps.apple.com/us/app/hodinkee/id1008305274) features:
 
