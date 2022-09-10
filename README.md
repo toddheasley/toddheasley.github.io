@@ -8,9 +8,13 @@
 
 __Mobile Director, [Hodinkee](https://www.hodinkee.com)__  
 New York, NY `Remote`  
-_November 2021—_
+_November 2021—_September 2022
 
-Watch this space.
+Led design, development and release of [Android](https://play.google.com/store/apps/details?id=com.hodinkee.zeitwerk) and [iOS](https://apps.apple.com/us/app/hodinkee/id1008305274) features:
+
+* Native faceted search UI for shopping collections
+* iOS Universal Links and Android App Links
+* Shopify Multipass account integration
 
 -----
 
@@ -26,15 +30,11 @@ Rebuilt [Big Cartel iOS](https://apps.apple.com/app/id739285899) for speed and e
 * Package-based architecture cleanly separates the app into maintainable libraries
 * All powered by GraphQL and Swift Combine
 
-![](docs/bigcartel-app-hero.png)
-
 -----
 
 __iOS Developer, [Dark Sky](https://darksky.net)__  
 Cambridge, MA `Remote`  
 _May 2017-December 2018_
-
-![](docs/darksky-app-hero.jpg)
 
 Redesigned [my favorite weather app](https://apps.apple.com/app/id517329357) from the ground up:
 
@@ -71,8 +71,6 @@ Developed and launched the first two major versions of [UO's iPhone app](https:/
 * Push notifications delivered by a from-scratch APNs provider
 * Direct-to-device iTunes music downloads
 
-![](docs/uo-app-hero.png)
-
 Led development of the first unified, responsive version of [urbanoutfitters.com](https://urbanoutfitters.com), including:
 
 * Overhaul of the existing Java-based commerce platform
@@ -99,23 +97,17 @@ __Web Editor, [AOL](https://aol.com)__
 Santa Monica, CA and New York, NY `Remote`  
 _June 2003-March 2007_
 
-Designed, wrote and coded web pages for an assortment of AOL content channels.
-
 -----
 
 __Contract Photo Editor, [AOL](https://aol.com)__  
 Philadelphia, PA  
 _February 2002-February 2003_
 
-Made my first app, a web-based tool for managing and optimizing web graphics and generating animated GIFs.
-
 -----
 
 __Web Developer, Threshold Entertainment__  
 Santa Monica, CA  
 _January 2001-September 2001_
-
-Designed and coded sites for [Ozzy Osbourne](https://ozzy.com) and [Ozzfest.](https://ozzfest.com)
 
 ## College
 
