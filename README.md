@@ -5,7 +5,7 @@
 
 ## Work
 
-#### Mobile Director, [Hodinkee](https://www.hodinkee.com)
+__Mobile Director, [Hodinkee](https://www.hodinkee.com)__  
 New York, NY `Remote`  
 _November 2021—September 2022_
 
@@ -14,7 +14,7 @@ Led design, development and release of [Android](https://play.google.com/store/a
 * GraphQL Shopify integration with native support for Multipass
 * Faceted search for detailed watch specs 
 
-#### Software Engineer, [Big Cartel](https://bigcartel.com)
+__Software Engineer, [Big Cartel](https://bigcartel.com)__  
 Salt Lake City, UT `Remote`  
 _June 2019-August 2021_
 
@@ -26,7 +26,7 @@ Rebuilt [Big Cartel iOS](https://apps.apple.com/app/id739285899) for speed and e
 * Package-based architecture cleanly separates the app into maintainable libraries
 * All powered by GraphQL and Swift Combine
 
-#### iOS Developer, [Dark Sky](https://darksky.net)
+__iOS Developer, [Dark Sky](https://darksky.net)__  
 Cambridge, MA `Remote`  
 _May 2017-December 2018_
 
@@ -38,7 +38,7 @@ Redesigned [my favorite weather app](https://darksky.net/app) from the ground up
 * Swift interoperability with shared C++ frameworks
 * Streamlined deployment workflow and automated testing
 
-#### iOS Developer, [Big Cartel](https://bigcartel.com)
+__iOS Developer, [Big Cartel](https://bigcartel.com)__  
 Salt Lake City, UT `Remote`  
 _October 2013-April 2017_
 
@@ -50,7 +50,7 @@ Launched and grew [Big Cartel iOS](https://apps.apple.com/app/id739285899) into 
 
 [Spoke at Seattle Xcoders](https://vimeo.com/98087711) about the design process at Big Cartel
 
-#### Senior Mobile Developer, [Urban Outfitters](https://urbanoutfitters.com)
+__Senior Mobile Developer, [Urban Outfitters](https://urbanoutfitters.com)__  
 Philadelphia, PA  
 _May 2008-September 2013_
 
@@ -68,7 +68,7 @@ Led development of the first unified, responsive version of [urbanoutfitters.com
 * Lightweight responsive HTML and CSS
 * Progressive approach to JavaScript enhancement
 
-#### Web Developer, [Free Library of Philadelphia](https://freelibrary.org)
+__Web Developer, [Free Library of Philadelphia](https://freelibrary.org)__  
 Philadelphia, PA  
 _June 2007-May 2008_
 
@@ -77,19 +77,19 @@ Working in digital collections, developed and launched the [Free Library Podcast
 * Workflow for digitizing and editing audio and video
 * Content management system and RSS feeds
 
-#### Web Editor, [AOL](https://aol.com)
+__Web Editor, [AOL](https://aol.com)__  
 Santa Monica, CA and New York, NY `Remote`  
 _June 2003-March 2007_
 
-#### Contract Photo Editor, [AOL](https://aol.com)
+__Contract Photo Editor, [AOL](https://aol.com)__  
 Philadelphia, PA  
 _February 2002-February 2003_
 
-#### Web Developer, Threshold Entertainment
+__Web Developer, Threshold Entertainment__  
 Santa Monica, CA  
 _January 2001-September 2001_
 
 ## College
 
-#### BA Integrative Arts, [Pennsylvania State University](https://psu.edu)
+__BA Integrative Arts, [Pennsylvania State University](https://psu.edu)__  
 _June 1996-December 2000_
