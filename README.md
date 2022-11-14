@@ -13,6 +13,7 @@ Led design, development and release of [Android](https://play.google.com/store/a
 
 * GraphQL Shopify integration with native support for Multipass
 * Faceted search for detailed watch specs 
+  
 
 __Software Engineer, [Big Cartel](https://bigcartel.com)__  
 Salt Lake City, UT `Remote`  
@@ -25,6 +26,7 @@ Rebuilt [Big Cartel iOS](https://apps.apple.com/app/id739285899) for speed and e
 * App-wide support for VoiceOver and Dynamic Type
 * Package-based architecture cleanly separates the app into maintainable libraries
 * All powered by GraphQL and Swift Combine
+  
 
 __iOS Developer, [Dark Sky](https://darksky.net)__  
 Cambridge, MA `Remote`  
@@ -37,6 +39,7 @@ Redesigned [my favorite weather app](https://darksky.net/app) from the ground up
 * Modular, framework-based Swift architecture
 * Swift interoperability with shared C++ frameworks
 * Streamlined deployment workflow and automated testing
+  
 
 __iOS Developer, [Big Cartel](https://bigcartel.com)__  
 Salt Lake City, UT `Remote`  
@@ -49,6 +52,7 @@ Launched and grew [Big Cartel iOS](https://apps.apple.com/app/id739285899) into 
 * Seamless Ship of Theseus from Objective-C to Swift
 
 [Spoke at Seattle Xcoders](https://vimeo.com/98087711) about the design process at Big Cartel
+  
 
 __Senior Mobile Developer, [Urban Outfitters](https://urbanoutfitters.com)__  
 Philadelphia, PA  
@@ -67,6 +71,7 @@ Led development of the first unified, responsive version of [urbanoutfitters.com
 * Page-fragment caching; moved ~90% page weight to CDN
 * Lightweight responsive HTML and CSS
 * Progressive approach to JavaScript enhancement
+  
 
 __Web Developer, [Free Library of Philadelphia](https://freelibrary.org)__  
 Philadelphia, PA  
@@ -76,14 +81,17 @@ Working in digital collections, developed and launched the [Free Library Podcast
 
 * Workflow for digitizing and editing audio and video
 * Content management system and RSS feeds
+  
 
 __Web Editor, [AOL](https://aol.com)__  
 Santa Monica, CA and New York, NY `Remote`  
 _June 2003-March 2007_
+  
 
 __Contract Photo Editor, [AOL](https://aol.com)__  
 Philadelphia, PA  
 _February 2002-February 2003_
+  
 
 __Web Developer, Threshold Entertainment__  
 Santa Monica, CA  
