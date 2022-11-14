@@ -5,17 +5,16 @@
 
 ## Work
 
-__Mobile Director, [Hodinkee](https://www.hodinkee.com)__  
-New York, NY `Remote`  
+### Mobile Director, [Hodinkee](https://www.hodinkee.com)
+#### New York, NY `Remote`
 _November 2021—September 2022_
 
 Led design, development and release of [Android](https://play.google.com/store/apps/details?id=com.hodinkee.zeitwerk) and [iOS](https://apps.apple.com/app/id1008305274) features:
 
 * GraphQL Shopify integration with native support for Multipass
 * Faceted search for detailed watch specs 
-  
 
-__Software Engineer, [Big Cartel](https://bigcartel.com)__  
+### Software Engineer, [Big Cartel](https://bigcartel.com)
 Salt Lake City, UT `Remote`  
 _June 2019-August 2021_
 
@@ -26,9 +25,8 @@ Rebuilt [Big Cartel iOS](https://apps.apple.com/app/id739285899) for speed and e
 * App-wide support for VoiceOver and Dynamic Type
 * Package-based architecture cleanly separates the app into maintainable libraries
 * All powered by GraphQL and Swift Combine
-  
 
-__iOS Developer, [Dark Sky](https://darksky.net)__  
+### iOS Developer, [Dark Sky](https://darksky.net)
 Cambridge, MA `Remote`  
 _May 2017-December 2018_
 
@@ -39,9 +37,8 @@ Redesigned [my favorite weather app](https://darksky.net/app) from the ground up
 * Modular, framework-based Swift architecture
 * Swift interoperability with shared C++ frameworks
 * Streamlined deployment workflow and automated testing
-  
 
-__iOS Developer, [Big Cartel](https://bigcartel.com)__  
+### iOS Developer, [Big Cartel](https://bigcartel.com)
 Salt Lake City, UT `Remote`  
 _October 2013-April 2017_
 
@@ -52,9 +49,8 @@ Launched and grew [Big Cartel iOS](https://apps.apple.com/app/id739285899) into 
 * Seamless Ship of Theseus from Objective-C to Swift
 
 [Spoke at Seattle Xcoders](https://vimeo.com/98087711) about the design process at Big Cartel
-  
 
-__Senior Mobile Developer, [Urban Outfitters](https://urbanoutfitters.com)__  
+### Senior Mobile Developer, [Urban Outfitters](https://urbanoutfitters.com)
 Philadelphia, PA  
 _May 2008-September 2013_
 
@@ -71,9 +67,8 @@ Led development of the first unified, responsive version of [urbanoutfitters.com
 * Page-fragment caching; moved ~90% page weight to CDN
 * Lightweight responsive HTML and CSS
 * Progressive approach to JavaScript enhancement
-  
 
-__Web Developer, [Free Library of Philadelphia](https://freelibrary.org)__  
+### Web Developer, [Free Library of Philadelphia](https://freelibrary.org)
 Philadelphia, PA  
 _June 2007-May 2008_
 
@@ -81,23 +76,20 @@ Working in digital collections, developed and launched the [Free Library Podcast
 
 * Workflow for digitizing and editing audio and video
 * Content management system and RSS feeds
-  
 
-__Web Editor, [AOL](https://aol.com)__  
+### Web Editor, [AOL](https://aol.com)
 Santa Monica, CA and New York, NY `Remote`  
 _June 2003-March 2007_
-  
 
-__Contract Photo Editor, [AOL](https://aol.com)__  
+### Contract Photo Editor, [AOL](https://aol.com)
 Philadelphia, PA  
 _February 2002-February 2003_
-  
 
-__Web Developer, Threshold Entertainment__  
-Santa Monica, CA  
+### Web Developer, Threshold Entertainment
+#### Santa Monica, CA
 _January 2001-September 2001_
 
 ## College
 
-__BA Integrative Arts, [Pennsylvania State University](https://psu.edu)__  
+### BA Integrative Arts, [Pennsylvania State University](https://psu.edu)
 _June 1996-December 2000_
