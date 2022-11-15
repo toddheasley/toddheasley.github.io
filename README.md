@@ -1,7 +1,7 @@
 # Todd Heasley
 
-[+1 (610) 996-3333](tel:16109963333)  
-[toddheasley@me.com](mailto:toddheasley@me.com)
+[toddheasley@me.com](mailto:toddheasley@me.com)  
+[+1 (610) 996-3333](tel:16109963333)
 
 ## Work
 
@@ -12,7 +12,7 @@ _November 2021—September 2022_
 Led design, development and release of [Android](https://play.google.com/store/apps/details?id=com.hodinkee.zeitwerk) and [iOS](https://apps.apple.com/app/id1008305274) features:
 
 * GraphQL Shopify integration with native support for Multipass
-* Faceted search for detailed watch specs 
+* Faceted search across detailed watch specs 
 
 __Software Engineer, [Big Cartel](https://bigcartel.com)__  
 Salt Lake City, UT `Remote`  
@@ -22,7 +22,7 @@ Rebuilt [Big Cartel iOS](https://apps.apple.com/app/id739285899) for speed and e
 
 * Drafts/versioning for products and themes, enabling incremental, anxiety-free editing
 * Restored native user interface, replacing Turbolinks with a modern mix of UIKit and SwiftUI
-* App-wide support for VoiceOver and Dynamic Type
+* VoiceOver and Dynamic Type supported throughout
 * Package-based architecture cleanly separates the app into maintainable libraries
 * All powered by GraphQL and Swift Combine
 
