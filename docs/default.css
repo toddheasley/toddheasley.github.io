@@ -31,7 +31,7 @@ body, dialog {
 
 body {
     font: 15px ui-sans-serif, sans-serif;
-    max-width: 512px;
+    max-width: 640px;
     padding: 0 11px;
 }
 
@@ -90,6 +90,7 @@ figure#portfolio {
 
 figure#portfolio, figure#portfolio div {
     overflow-x: scroll;
+    overflow-y: hidden;
 }
 
 figure#portfolio h1 {
@@ -109,10 +110,18 @@ figure#portfolio table {
 
 figure#portfolio td {
     background: none;
+    position: relative;
 }
 
 figure#portfolio td:first-child {
-    width: 22%;
+    left: 1%;
+    transform: rotate(1deg);
+    width: 21%;
+}
+
+figure#portfolio td:last-child {
+    transform: rotate(-1deg);
+    right: 1%;
 }
 
 footer {
