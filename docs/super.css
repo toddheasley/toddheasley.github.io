@@ -1,7 +1,7 @@
 :root {
     --background: rgb(241, 241, 241);
     --border: rgba(102, 102, 102, 0.25);
-    --radius: 5px;
+    --radius: 3.5px;
     color-scheme: light dark;
 }
 
@@ -31,8 +31,10 @@ body, dialog {
 
 body {
     font: 15px ui-sans-serif, sans-serif;
+    line-height: 1.35em;
     max-width: 640px;
     padding: 0 11px;
+    position: relative;
 }
 
 @media (max-width: 512px) {
@@ -86,26 +88,29 @@ figure, audio, figure img, figure video {
 
 figure#portfolio {
     box-shadow: 0 0 1px 1px var(--border) inset;
+    margin: 1.5em 0;
+    position: relative;
 }
 
 figure#portfolio, figure#portfolio div {
-    overflow-x: scroll;
-    overflow-y: hidden;
+    overflow: scroll hidden;
 }
 
 figure#portfolio h1 {
+    bottom: 7px;
     font-size: 1.17em;
-    margin: 5px 11px -5px 11px;
-}
-
-figure#portfolio img {
-    border-radius: calc(var(--radius) * 0.75);
+    left: 15px;
+    position: absolute;
 }
 
 figure#portfolio table {
     margin: 0;
     max-width: initial;
     width: 225%;
+}
+
+figure#portfolio img {
+    border-radius: calc(var(--radius) * 0.75);
 }
 
 figure#portfolio td {
@@ -115,7 +120,7 @@ figure#portfolio td {
 
 figure#portfolio td:first-child {
     left: 1%;
-    transform: rotate(1deg);
+    transform: rotate(1.5deg);
     width: 21%;
 }
 
@@ -129,8 +134,7 @@ footer {
 }
 
 h1, h2, h3, h4, h5, h6, li {
-    margin: 0.05em 0;
-    opacity: 0.9;
+    margin: 0.1em 0;
 }
 
 header {
@@ -150,6 +154,42 @@ iframe {
     width: 100%;
 }
 
+img[src$=".svg"] {
+    display: inline-block;
+    position: relative;
+    transform: rotate(-1deg);
+    vertical-align: middle;
+}
+
+img[src$="-download.svg"] {
+    bottom: 32px;
+    left: 8px;
+    transform: rotate(1deg);
+}
+
+img[src="clone.svg"] {
+    bottom: 32px;
+    right: 21px;
+    transform: rotate(3deg);
+}
+
+img[src="hire.svg"] {
+    position: absolute;
+    right: 10%;
+    top: 0.5em;
+    transform: rotate(-11deg);
+    z-index: 99;
+}
+
+img[src="download.svg"] {
+    transform: rotate(-1.5deg);
+}
+
+img[src="print.svg"] {
+    right: 11px;
+    transform: rotate(2deg);
+}
+
 ol, ul {
     padding-left: 25px;
 }
@@ -163,7 +203,7 @@ table {
 }
 
 time {
-    font: 1em ui-monospace, monospace;
+    font: 0.9em ui-monospace, monospace;
     opacity: 0.75;
 }
 
@@ -199,7 +239,10 @@ tr:last-child :last-child {
     
     a[href^="http"]:after {
         content: "<" attr(href) ">";
-        font-size: 0.85em;
+    }
+    
+    a[href^="javascript:"] {
+        display: none;
     }
     
     a.action {
@@ -211,17 +254,36 @@ tr:last-child :last-child {
     }
     
     body {
-        font-size: 7pt;
-        margin: 0;
-        max-width: 320pt;
+        font-size: 9pt;
     }
     
-    img[src^="action-download"], img[src^="action-print"] {
-        display: none;
+    figure#portfolio, figure#portfolio div {
+        box-shadow: none;
+        overflow: none;
+        page-break-after: always;
     }
     
-    img[src^="action-"] {
-        height: 15pt;
-        margin: 3pt 1pt -1.5pt 0;
+    figure#portfolio table {
+        width: 50%;
+    }
+    
+    figure#portfolio td {
+        display: block;
+        position: relative;
+    }
+
+    figure#portfolio td:first-child {
+        top: 25pt;
+        width: 180pt;
+    }
+    
+    figure#portfolio td:nth-child(2) {
+        left: 55pt;
+        width: 240pt;
+    }
+    
+    figure#portfolio td:last-child {
+        left: 20pt;
+        width: 160pt;
     }
 }
