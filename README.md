@@ -1,6 +1,6 @@
 # Homepage
 
-![](docs/sheet.svg)
+[![](docs/sheet.svg)](https://toddheasley.github.io)
 
 ### Recent Work
 
