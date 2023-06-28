@@ -2,41 +2,161 @@
 <title>Portfolio - Todd Heasley</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="initial-scale=1.0">
-<meta name="og:image" content="https://toddheasley.github.io/bigcartel-app.png">
+<meta name="og:image" content="https://toddheasley.github.io/hodinkee.png">
 <meta name="og:title" content="Portfolio - Todd Heasley">
 <meta name="og:description" content="Apps, etc. for Apple platforms">
 <meta name="description" content="Apps, etc. for Apple platforms">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
 <link rel="shortcut icon" href="favicon.ico">
-<link rel="stylesheet" href="super.css">
+<link rel="stylesheet" href="html.css">
+<style>
+    
+    header table {
+        font-size: 1.75em;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    
+    header table a {
+        text-decoration: none;
+    }
+    
+    header td {
+        padding: 0 0 0.5em var(--horizontal-inset);
+        text-align: right;
+    }
+    
+    header td span {
+        display: none;
+    }
+    
+    iframe[src="hodinkee.html"] {
+        bottom: 25.5%;
+        height: 50%;
+        left: 35%;
+        position: absolute;
+        transform: rotate(-86deg);
+        width: 30%;
+    }
+    
+    img[src^="darksky-app"] {
+        box-shadow: var(--box-shadow);
+        transform: rotate(-1.5deg) scale(105%) translate(3%, 1%);
+    }
+    
+    @media (max-width: 512px) {
+        img[src^="darksky-app"] {
+            transform: rotate(-84deg) scale(125%) translate(8%, -2%);
+            width: 55%;
+        }
+    }
+    
+    img[src="uo-app.jpg"] {
+        box-shadow: var(--box-shadow);
+        transform: rotate(2.5deg) translate(-5%, 3%);
+    }
+    
+    @media print {
+        a[href^="mailto:"]:brefore {
+            content: "<" attr(href) ">";
+        }
+        
+        body > h1 {
+            visibility: hidden;
+        }
+        
+        header table {
+            font-size: 1em;
+        }
+        
+        header td {
+            display: block;
+        }
+        
+        header td span {
+            display: inline;
+        }
+        
+        section a[href^="http"]:after {
+            content: "<" attr(href) ">";
+        }
+        
+        section table {
+            display: none;
+        }
+    }
+    
+</style>
 <header>
-    <h1><a href="index.html">Todd&nbsp;Heasley</a></h1>
+    <h1>Todd&nbsp;Heasley</h1>
+    <p><a href="https://github.com/toddheasley">github.com/toddheasley</a></p>
+    <table>
+        <tr>
+            <td><a href="javascript:window.print()">🖨️</a></td>
+            <td><a href="tel:16109963333"><span>+1 (610) 996-3333</span> 📞</a></td>
+            <td><a href="mailto:toddheasley@me.com"><span>toddheasley@me.com</span> ✉️</a></td>
+        </tr>
+    </table>
 </header>
-<main>
-    <h1>Portfolio</h1>
-    <figure id="portfolio">
-        <table>
-            <tr>
-                <td><a href="darksky.html"><picture><source media="(prefers-color-scheme: dark)" srcset="darksky-app-dark.jpg"><img src="darksky-app.jpg"></picture></a></td>
-                <td><a href="bigcartel-app.html"><picture><source media="(prefers-color-scheme: dark)" srcset="bigcartel-app-dark.png"><img src="bigcartel-app.png"></picture></a></td>
-                <td><a href="uo-app.html"><img src="uo-app.jpg"></a></td>
-            </tr>
-        </table>
-    </figure>
-    <hr>
-    <h4>Work</h4>
-    <p><a href="https://www.hodinkee.com">Hodinkee</a><br><time>November 2021—September 2022</time></p>
-    <p><a href="https://bigcartel.com">Big Cartel</a><br><time>October 2013-April 2017, June 2019-August 2021</time><br>Made <a href="https://apps.apple.com/app/id739285899">Big Cartel iOS</a> for most of a decade</p>
-    <p><a href="https://darksky.net">Dark Sky</a><br><time>May 2017-December 2018</time><br>Redesigned my favorite weather app with weather icons by <a href="https://iconfactory.com">Iconfactory</a></p>
-    <p><a href="https://urbanoutfitters.com">Urban Outfitters</a><br><time>May 2008-September 2013</time><br>Launched responsive <a href="https://urbanoutfitters.com">urbanoutfitters.com</a> and <a href="https://apps.apple.com/app/id358821736">UO's iPhone app</a></p>
-    <p><a href="https://freelibrary.org">Free Library</a><br><time>June 2007-May 2008</time><br>Started the <a href="https://libwww.freelibrary.org/podcast">Free Library Podcast</a></p>
-    <p><a href="https://aol.com">AOL</a><br><time>February 2002-February 2003, June 2003-March 2007</time></p>
-    <h4>College</h4>
-    <p><a href="https://psu.edu">Penn State</a><br><time>June 1996-December 2000</time><br>BA</p>
-    <hr>
-    <p><a href="mailto:toddheasley@me.com">toddheasley@me.com</a><br><a href="tel:16109963333">+1 (610) 996-3333</a></p>
-    <p><a href="javascript:window.print()"><img src="print.svg" alt="Print"></a></p>
-</main>
+<h1>Portfolio</h1>
+<h2>Work</h2>
+<section>
+    <h3><a href="https://www.hodinkee.com">Hodinkee</a></h3>
+    <p><time>November&nbsp;2021-September&nbsp;2022</time><br>Pretty complicated</p>
+    <table>
+        <tr>
+            <td><picture><source media="(prefers-color-scheme: dark)" srcset="hodinkee-dark.png"><img src="hodinkee.png"></picture> <iframe src="hodinkee.html" frameborder="no" scrolling="no"></iframe></td>
+        </tr>
+    </table>
+</section>
+<hr>
+<section>
+    <h3><a href="https://darksky.net">Dark Sky</a></h3>
+    <p><time>May&nbsp;2017-December&nbsp;2018</time><br>Redesigned my favorite weather app with weather icons by <a href="https://iconfactory.com">Iconfactory</a></p>
+    <table>
+        <tr>
+            <td><picture><source media="(prefers-color-scheme: dark)" srcset="darksky-app-dark.jpg"><img src="darksky-app.jpg"></picture></td>
+            <td><picture><source media="(prefers-color-scheme: dark)" srcset="darksky-weather-dark.png"><img src="darksky-weather.png"></picture></td>
+        </tr>
+    </table>
+</section>
+<hr>
+<section>
+    <h3><a href="https://bigcartel.com">Big Cartel</a></h3>
+    <p><time>October&nbsp;2013-April&nbsp;2017, June&nbsp;2019-August&nbsp;2021</time><br>Made <a href="https://apps.apple.com/app/id739285899">Big Cartel iOS</a> for most of a decade</p>
+    <table>
+        <tr>
+            <td><picture><source media="(prefers-color-scheme: dark)" srcset="bigcartel-app-dark.png"><img src="bigcartel-app.png"></picture></figure>
+        </tr>
+    </table>
+</section>
+<hr>
+<section>
+    <h3><a href="https://urbanoutfitters.com">Urban&nbsp;Outfitters</a></h3>
+    <p><time>May&nbsp;2008-September&nbsp;2013</time><br>Launched responsive <a href="https://urbanoutfitters.com">urbanoutfitters.com</a> and <a href="https://apps.apple.com/app/id358821736">UO's iPhone app</a></p>
+    <table>
+        <tr>
+            <td><img src="uo-app.jpg"></td>
+            <td><img src="uo-app.gif"></td>
+        </tr>
+    </table>
+</section>
+<hr>
+<section>
+    <h3><a href="https://freelibrary.org">Free&nbsp;Library</a></h3>
+    <p><time>June&nbsp;2007-May&nbsp;2008</time><br>Started the <a href="https://libwww.freelibrary.org/podcast">Free Library Podcast</a></p>
+</section>
+<hr>
+<section>
+    <h3><a href="https://aol.com">AOL</a></h3>
+    <p><time>February&nbsp;2002-February&nbsp;2003, June&nbsp;2003-March&nbsp;2007</time><br>Web apps, content and graphics</p>
+</section>
+<h2>College</h2>
+<section>
+    <h3><a href="https://psu.edu">Penn&nbsp;State</a></h3>
+    <p><time>June&nbsp;1996-December&nbsp;2000</time><br>BA Integrative Arts</p>
+</section>
 <footer>
-    <p><a href="https://github.com/toddheasley">@toddheasley</a></p>
+    <p><a href="index.html"><img src="index.gif"></a></p>
 </footer>

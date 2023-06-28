@@ -1,0 +1,105 @@
+:root {
+    color-scheme: light dark;
+    --box-shadow: 0 0 3px 1px rgba(128, 128, 128, 0.5);
+    --horizontal-inset: 22px;
+    --table-background: rgba(192, 192, 192, 0.15);
+}
+
+@media (max-width: 512px) {
+    :root {
+        --horizontal-inset: 16px;
+    }
+    
+    td {
+        display: block;
+    }
+}
+
+* {
+    margin: 0;
+}
+
+body {
+    font: 1em ui-sans-serif, sans-serif;
+    margin: 1em auto;
+    max-width: 768px;
+    position: relative;
+    width: calc(100% - var(--horizontal-inset));
+}
+
+footer {
+    margin-top: 4em;
+    text-align: center;
+}
+
+footer img {
+    max-width: 384px;
+    width: 100%;
+}
+
+h1 {
+    margin-top: 1em;
+}
+
+h2 {
+    font-size: 22px;
+    margin: 2em 0 0.5em 0;
+}
+
+h3 {
+    font-size: 1em;
+}
+
+header h1 {
+    font-size: 1em;
+    margin-left: -1.5px;
+}
+
+hr {
+    margin: 2em 0;
+    opacity: 0.5;
+}
+
+section table {
+    background: var(--table-background);
+    border-radius: var(--horizontal-inset);
+    border-spacing: var(--horizontal-inset) 2em;
+    margin: 0.75em 0;
+    width: 100%;
+}
+
+section td {
+    position: relative;
+    text-align: center;
+}
+
+section td img {
+    width: 100%;
+}
+
+time {
+    font-style: italic;
+}
+
+@media print {
+    a, table {
+        page-break-inside: avoid;
+    }
+    
+    a {
+        color: inherit;
+        text-decoration: none;
+    }
+    
+    a[href^="javascript:"] {
+        display: none;
+    }
+    
+    body {
+        font-size: 8pt;
+    }
+    
+    footer {
+        display: none;
+    }
+}

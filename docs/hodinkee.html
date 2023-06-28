@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<title>Hodinkee</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="initial-scale=1.0">
+<style>
+    
+    :root {
+        color-scheme: light dark;
+        --accent: #496FB7;
+        --background: #FFFFFF;
+        --primary: #222222;
+        --secondary: #888888;
+        --tertiary: #EDEDED;
+        --moon: #CCCCCC;
+    }
+    
+    @media (prefers-color-scheme: dark) {
+        :root {
+            --background: #333333;
+            --primary: #FFFFFF;
+            --tertiary: #000000;
+        }
+    }
+    
+    * {
+        margin: 0;
+    }
+    
+    .mono {
+        font-family: ui-monospace, monospace;
+        font-weight: 100;
+    }
+        
+    body, td {
+        font: 21px ui-sans-serif, sans-serif;
+        text-align: center;
+    }
+    
+    del, ins {
+        text-decoration: none;
+    }
+    
+    del {
+        color: var(--tertiary);
+        opacity: 0.5;
+    }
+    
+    iframe, svg {
+        display: inline-block;
+    }
+    
+    small {
+        color: var(--secondary);
+        display: block;
+        font-size: 13px;
+        text-transform: uppercase;
+    }
+    
+    small ins {
+        color: var(--primary);
+    }
+    
+    svg g {
+        transform-origin: center;
+    }
+    
+    svg text {
+        fill: var(--primary);
+        font: 2em ui-monospace, monospace;
+    }
+    
+    table {
+        border-collapse: collapse;
+        width: 100%;
+    }
+    
+    td {
+        text-align: center;
+    }
+    
+    #moon-phase {
+        transform: rotate(var(--moon-phase-angle));
+        transform-box: border-box;
+    }
+    
+    #hour {
+        transform: rotate(var(--hour-angle));
+    }
+    
+    #minute {
+        transform: rotate(var(--minute-angle));
+    }
+    
+    #second {
+        transform: rotate(var(--second-angle));
+    }
+    
+</style>
+<svg viewBox="0 0 1024 1024">
+    <mask id="dial-mask" fill="#FFFFFF">
+        <circle cx="512" cy="512" r="512"></circle>
+    </mask>
+    <g mask="url(#dial-mask)">
+        <rect fill="var(--background)" x="0" y="0" width="1024" height="1024"></rect>
+        <path fill="var(--primary)" fill-opacity="0.95" d="M650.5,277 L650.5,281.226069 L636.37466,281.226069 L636.37466,288.596759 L645.687877,288.596759 L645.687877,293.152828 L636.37466,293.152828 L636.37466,302.473103 L650.5,302.473103 L650.5,307 L631.825843,307 L631.825843,277 L650.5,277 Z M618.338951,277 L618.338951,281.226069 L604.213611,281.226069 L604.213611,288.596759 L613.526828,288.596759 L613.526828,293.152828 L604.213611,293.152828 L604.213611,302.473103 L618.338951,302.473103 L618.338951,307 L599.664794,307 L599.664794,277 L618.338951,277 Z M565.665793,277 L565.665793,289.748862 L578.419205,277 L584.255502,277 L570.284016,291.027069 L585.140449,307 L579.481039,307 L565.665793,292.091862 L565.665793,307 L561.279026,307 L561.279026,277 L565.665793,277 Z M522.693445,277 L541.548845,299.077621 L540.95563,277 L545.717228,277 L545.717228,307 L542.649064,307 L523.949282,285.106103 L524.577771,307 L519.780899,307 L519.780899,277 L522.693445,277 Z M500.069288,277 L504.219101,277 L504.219101,307 L500.069288,307 L500.069288,277 Z M465.737161,277 C470.512973,277 473.610912,278.205379 476.063555,279.99431 C479.76384,282.721 482.432584,287.150448 482.432584,292.091862 C482.432584,297.033276 479.806998,301.462724 476.106713,304.189414 C473.653863,305.978345 470.512973,307 465.737161,307 L456.496255,307 L456.496255,277 L465.737161,277 Z M465.673669,281.444448 L461.006894,281.444448 L461.006894,302.555552 L465.673669,302.555552 C469.769949,302.555552 472.194478,301.686172 474.033778,300.113034 C476.248845,298.167172 477.921945,295.228414 477.921945,291.999483 C477.921945,288.770552 476.248845,285.83169 474.033778,283.885724 C472.194478,282.313828 469.769949,281.444448 465.673669,281.444448 Z M427.966603,277 C436.476313,277 443.009363,283.499448 443.009363,292 C443.009363,300.500552 436.476313,307 427.966603,307 C419.456686,307 412.923221,300.500552 412.923221,292 C412.923221,283.499448 419.456686,277 427.966603,277 Z M427.966396,281.444448 C421.911197,281.444448 417.380431,285.985517 417.380431,292 C417.380431,298.054828 421.911197,302.555552 427.966396,302.555552 C434.020973,302.555552 438.552153,298.054828 438.552153,292 C438.552153,285.985517 434.020973,281.444448 427.966396,281.444448 Z M378.13669,277 L378.13669,288.717483 L394.756897,288.717483 L394.756897,277 L399.43633,277 L399.43633,307 L394.756897,307 L394.756897,293.06831 L378.13669,293.06831 L378.13669,307 L373.5,307 L373.5,277 L378.13669,277 Z"></path>
+        <path stroke="var(--primary)" stroke-width="2" d="M463.831808,53.7105257 L461.155798,28.25 M416.191412,61.2560792 L410.868713,36.2147482 M369.600666,73.7400438 L361.689593,49.3922658 M324.570153,91.0256009 L314.157383,67.6381333 M241.140449,139.193805 L226.092693,118.482348 M203.655365,169.548582 L186.525107,150.523503 M169.548601,203.655375 L150.523522,186.525116 M139.193713,241.140402 L118.482255,226.092646 M91.0255874,324.570164 L67.6381198,314.157394 M73.739968,369.600699 L49.39219,361.689627 M61.2560246,416.191428 L36.2146935,410.868728 M53.7105288,463.831873 L28.2500031,461.155863 M53.7105257,560.168182 L28.25,562.844192 M61.256028,607.808578 L36.214697,613.131277 M73.7399721,654.399325 L49.3921941,662.310398 M91.0255907,699.429838 L67.6381231,709.842608 M139.193785,782.859541 L118.482327,797.907297 M169.548561,820.344626 L150.523482,837.474884 M203.655354,854.45139 L186.525096,873.476468 M241.140382,884.806278 L226.092626,905.517735 M324.570143,932.974403 L314.157374,956.36187 M369.600679,950.260022 L361.689606,974.6078 M416.191407,962.743966 L410.868708,987.785297 M463.831853,970.289461 L461.155843,995.749987 M562.844114,995.74999 L560.168104,970.289464 M613.131269,987.785297 L607.80857,962.743966 M662.310338,974.607798 L654.399265,950.26002 M709.842683,956.361873 L699.429913,932.974405 M797.907311,905.51771 L782.859555,884.806252 M837.47491,873.47655 L820.344652,854.451471 M873.476467,837.47492 L854.451388,820.344661 M905.517719,797.907366 L884.806262,782.85961 M956.361819,709.842695 L932.974351,699.429925 M974.607814,662.310372 L950.260036,654.399299 M987.785252,613.131285 L962.743921,607.808586 M995.749942,562.84418 L970.289416,560.16817 M995.75,461.155876 L970.289474,463.831886 M987.785276,410.868721 L962.743945,416.19142 M974.607747,361.689652 L950.259968,369.600725 M956.361894,314.157307 L932.974426,324.570077 M905.517689,226.092679 L884.806232,241.140435 M873.47653,186.525081 L854.451451,203.655339 M837.474899,150.523523 L820.344641,169.548602 M797.907346,118.482271 L782.85959,139.193729 M709.842674,67.6381717 L699.429904,91.0256393 M662.310351,49.3921762 L654.399279,73.7399542 M613.131265,36.214738 L607.808565,61.256069 M562.844159,28.2500486 L560.168149,53.7105744"></path>
+        <path stroke="var(--primary)" stroke-width="6" stroke-linecap="round" d="M511,25.6 L511,128 M128,513 L25.6,513 M511,930 L511,998.4 M998.4,513 L896,513 M319.133975,179.946245 L267.933975,91.2652436 M178.946245,703.133975 L90.2652436,754.333975 M754.333975,933.734756 L703.133975,845.053755 M932.734756,267.933975 L844.053755,319.133975 M178.946245,320.866025 L90.2652436,269.666025 M319.133975,844.053755 L267.933975,932.734756 M932.734756,756.066025 L844.053755,704.866025 M754.333975,90.2652436 L703.133975,178.946245"></path>
+        <!-- <path stroke="var(--primary)" stroke-width="6" stroke-linecap="round" d="M511,25.6 L511,128 M128,513 L25.6,513 M511,896 L511,998.4 M998.4,513 L896,513 M319.133975,179.946245 L267.933975,91.2652436 M178.946245,703.133975 L90.2652436,754.333975 M754.333975,933.734756 L703.133975,845.053755 M932.734756,267.933975 L844.053755,319.133975 M178.946245,320.866025 L90.2652436,269.666025 M319.133975,844.053755 L267.933975,932.734756 M932.734756,756.066025 L844.053755,704.866025 M754.333975,90.2652436 L703.133975,178.946245"></path> -->
+    </g>
+    <defs>
+        <linearGradient id="moon-phase-fill" x1="50%" y1="0%" x2="50%" y2="50%">
+            <stop stop-color="#254585" offset="0%"></stop>
+            <stop stop-color="#4E7EBD" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <mask id="moon-phase-mask" fill="#FFFFFF">
+        <path d="M184,0 C285.620394,0 368,82.379606 368,184 L368,184 L359,184 L359,184 C359,143.130929 325.869071,110 285,110 C244.130929,110 211,143.130929 211,184 L202,184 L202,184 C202,174.058875 193.941125,166 184,166 C174.058875,166 166,174.058875 166,184 L157,184 L157,184 C157,143.130929 123.869071,110 83,110 C42.1309285,110 9,143.130929 9,184 L-1.70530257e-13,184 C-1.70530257e-13,82.379606 82.379606,0 184,0 Z"></path>
+    </mask>
+    <g mask="url(#moon-phase-mask)" transform="translate(328, 598)" width="368" height="368">
+        <rect fill="url(#moon-phase-fill)" x="0" y="0" width="368" height="368"></rect>
+        <g id="moon-phase">
+            <circle fill="var(--moon)" cx="285" cy="184" r="68"></circle>
+            <circle fill="var(--moon)" cx="83" cy="184" r="68"></circle>
+        </g>
+    </g>
+    <text id="time-zone" x="474" y="868" fill="var(--primary)"></text>
+    <g id="hour">
+        <path fill="var(--primary)" d="M516,457 L515.999383,477.226003 C533.445983,479.210604 547,494.022415 547,512 C547,531.33 531.33,547 512,547 C492.67,547 477,531.33 477,512 C477,494.022757 490.5535,479.211169 507.999619,477.226116 L508,457 L516,457 Z"></path>
+        <path fill="var(--background)" stroke="var(--primary)" stroke-width="4" d="M512,200 C514.485281,200 516.735281,201.007359 518.363961,202.636039 C519.992641,204.264719 521,206.514719 521,209 L521,209 L521,453 C521,455.485281 519.992641,457.735281 518.363961,459.363961 C516.735281,460.992641 514.485281,462 512,462 C509.514719,462 507.264719,460.992641 505.636039,459.363961 C504.007359,457.735281 503,455.485281 503,453 L503,453 L503,209 C503,206.514719 504.007359,204.264719 505.636039,202.636039 C507.264719,201.007359 509.514719,200 512,200 Z"></path>
+    </g>
+    <g id="minute">
+        <path fill="var(--primary)" d="M516,457 L515.99934,484.28346 C529.568858,486.224088 540,497.893857 540,512 C540,527.464 527.464,540 512,540 C496.536,540 484,527.464 484,512 C484,497.894203 494.430631,486.22466 507.999662,484.283602 L508,457 L516,457 Z"></path>
+        <path fill="var(--background)" stroke="var(--primary)" stroke-width="4" d="M512,50 C514.485281,50 516.735281,51.0073593 518.363961,52.636039 C519.992641,54.2647186 521,56.5147186 521,59 L521,59 L521,453 C521,455.485281 519.992641,457.735281 518.363961,459.363961 C516.735281,460.992641 514.485281,462 512,462 C509.514719,462 507.264719,460.992641 505.636039,459.363961 C504.007359,457.735281 503,455.485281 503,453 L503,453 L503,59 C503,56.5147186 504.007359,54.2647186 505.636039,52.636039 C507.264719,51.0073593 509.514719,50 512,50 Z"></path>
+    </g>
+    <g id="second">
+        <path fill="var(--accent)" d="M512.004,40 C514.213139,40 516.004,41.790861 516.004,44 L516.004008,491.381267 C525.686896,493.250563 533,501.771248 533,512 C533,522.228752 525.686896,530.749437 516.004008,532.618733 L516.004,614 C516.004,616.209139 514.213139,618 512.004,618 C509.794861,618 508.004,616.209139 508.004,614 L508.002986,532.620082 C498.316626,530.753539 491,522.231214 491,512 C491,501.768786 498.316626,493.246461 508.002986,491.379918 L508.004,44 C508.004,41.790861 509.794861,40 512.004,40 Z"></path>
+        <circle fill="var(--primary)" fill-opacity="0.4" cx="512" cy="512" r="8"></circle>
+    </g>
+</svg>
+<script>
+    
+    class MoonPhase {
+        constructor(date = Date()) {
+            this.value = ((date.getTime() - 1641148380000.0) / 86400000.0) / 29.53059; // January 2, 2022 06:33 UTC
+            this.value -= Math.floor(this.value);
+            this.direction = {
+                description: (this.value < 0.5) ? "Waxing" : "Waning",
+                angle: (this.value < 0.5) ? 180.0 : 0.0
+            };
+            this.percentage = (this.value > 0.5 ? 1.0 - this.value : this.value) * 2.0;
+            if (this.percentage < 0.05) {
+                this.description = "New";
+                this.index = 0;
+            } else if (this.percentage < 0.45) {
+                this.description = this.direction.description + " Crescent";
+                this.index = 1;
+            } else if (this.percentage < 0.56) {
+                this.description = this.direction.angle != 0.0 ? "First Quarter" : "Last Quarter";
+                this.index = 2;
+            } else if (this.percentage < 0.96) {
+                this.description = this.direction.description + " Gibbous";
+                this.index = 3;
+            } else {
+                this.description = "Full";
+                this.index = 4;
+            }
+            this.offset = ((this.value > 0.5 ? 1.0 : 0.0) - this.value) * 2.0;
+            this.angle = this.value * 180.0;
+        };
+    };
+    
+    class Month {
+        constructor(date = Date()) {
+            this.value = date.getMonth();
+            this.description = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"][this.value];
+        }
+    }
+    
+    setInterval(function() {
+        const style = document.documentElement.style
+        const date = new Date();
+        
+        // Date
+        const month = new Month(date);
+        const day = date.getDate();
+        const year = date.getFullYear();
+        if (document.querySelector("time#date") != null) {
+            document.querySelector("time#date").innerHTML = month.description + " " + day + ", " + year;
+        }
+        
+        // Time zone
+        const timeZone = date.toLocaleTimeString(undefined, { timeZoneName: "short" }).split(" ")[2];
+        if (document.querySelector("text#time-zone") != null) {
+            document.querySelector("text#time-zone").innerHTML = timeZone;
+        }
+        if (document.querySelector("time#time-zone") != null) {
+            document.querySelector("time#time-zone").innerHTML = timeZone;
+        }
+        
+        // Meridiem
+        const meridiem = date.getHours() < 12 ? "<ins>AM</ins> <del>PM</del>" : "<del>AM</del> <ins>PM</ins>";
+        if (document.querySelector("time#meridiem") != null) {
+            document.querySelector("time#meridiem").innerHTML = meridiem;
+        }
+                
+        // Flying second
+        const flyingSecond = date.getMilliseconds() / 1000.0;
+        style.setProperty("--flying-second", Math.min(Math.round(flyingSecond * 10.0), 9.0));
+        style.setProperty("--flying-second-percentage", flyingSecond);
+        style.setProperty("--flying-second-angle-jump", ((Math.round((flyingSecond * 360.0) / 90.0) * 90.0) % 360.0) + "deg");
+        style.setProperty("--flying-second-angle", (flyingSecond * 360.0) + "deg");
+        if (document.querySelector("time#flying-second") != null) {
+            document.querySelector("time#flying-second").innerHTML = style.getPropertyValue("--flying-second");
+        }
+        
+        // Second
+        const second = (date.getSeconds() + flyingSecond) / 60.0;
+        style.setProperty("--second", date.getSeconds());
+        style.setProperty("--second-percentage", second);
+        style.setProperty("--second-angle-jump", ((date.getSeconds() / 60.0) * 360.0) + "deg");
+        style.setProperty("--second-angle", (second * 360.0) + "deg");
+        if (document.querySelector("time#second") != null) {
+            document.querySelector("time#second").innerHTML = style.getPropertyValue("--second").padStart(2, "0");
+        }
+        
+        // Minute
+        const minute = (date.getMinutes() + second) / 60.0;
+        style.setProperty("--minute", date.getMinutes());
+        style.setProperty("--minute-percentage", minute);
+        style.setProperty("--minute-angle-jump", ((date.getMinutes() / 60.0) * 360.0) + "deg");
+        style.setProperty("--minute-angle", (minute * 360.0) + "deg");
+        if (document.querySelector("time#minute") != null) {
+            document.querySelector("time#minute").innerHTML = style.getPropertyValue("--minute").padStart(2, "0");
+        }
+        
+        // Hour
+        const hour = (date.getHours() + minute) / 24.0;
+        style.setProperty("--hour", date.getHours() % 12);
+        style.setProperty("--hour-utc", date.getUTCHours());
+        style.setProperty("--hour-percentage", hour);
+        style.setProperty("--hour-angle-jump", (((date.getHours() / 24.0) * 720.0) % 360.0) + "deg");
+        style.setProperty("--hour-angle", ((hour * 720.0) % 360.0) + "deg");
+        if (document.querySelector("time#hour") != null) {
+            document.querySelector("time#hour").innerHTML = (style.getPropertyValue("--hour").length == 1 ? "<del>0</del>" : "") + style.getPropertyValue("--hour");
+        }
+        if (document.querySelector("time#hour-utc") != null) {
+            document.querySelector("time#hour-utc").innerHTML = style.getPropertyValue("--hour-utc").padStart(2, "0");
+        }
+        
+        // Moon phase
+        const moonPhase = new MoonPhase(date);
+        style.setProperty("--moon-phase", moonPhase.value);
+        style.setProperty("--moon-phase-percentage", moonPhase.percentage);
+        style.setProperty("--moon-phase-offset", moonPhase.offset);
+        style.setProperty("--moon-phase-angle", moonPhase.angle + "deg");
+        if (document.querySelector("time#moon-phase") != null) {
+            document.querySelector("time#moon-phase").innerHTML = moonPhase.description;
+        }
+        
+        // Leap year
+        const leapYear = (date.getFullYear() + 3) % 4;
+        style.setProperty("--leap-year", date.getFullYear() + (3 - leapYear));
+        style.setProperty("--leap-year-angle", (leapYear * 90.0 + 90.0) + "deg");
+        if (document.querySelector("time#leap-year") != null) {
+            document.querySelector("time#leap-year").innerHTML = style.getPropertyValue("--leap-year");
+        }
+    }, 125.0);
+    
+</script>

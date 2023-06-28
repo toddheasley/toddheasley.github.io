@@ -1,40 +1,49 @@
 <!DOCTYPE html>
 <title>Homepage - Todd Heasley</title>
+<meta charset="UTF-8">
 <meta name="viewport" content="initial-scale=1.0">
-<meta name="og:image" content="https://toddheasley.github.io/couchnado.jpg">
+<meta name="og:image" content="https://toddheasley.github.io/hodinkee.png">
 <meta name="og:title" content="Homepage - Todd Heasley">
 <meta name="og:description" content="Apps, etc. for Apple platforms">
 <meta name="description" content="Apps, etc. for Apple platforms">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
 <link rel="shortcut icon" href="favicon.ico">
-<link rel="stylesheet" href="super.css">
+<link rel="stylesheet" href="html.css">
+<style>
+    
+    iframe[src="hodinkee.html"] {
+        bottom: 25.5%;
+        height: 50%;
+        left: 35%;
+        position: absolute;
+        transform: rotate(-86deg);
+        width: 30%;
+    }
+    
+    img[src="harsh-barge.jpg"] {
+        border-radius: 2.5px;
+        box-shadow: var(--box-shadow);
+        width: 100%;
+    }
+    
+</style>
 <header>
     <h1>Todd&nbsp;Heasley</h1>
+    <p><a href="https://github.com/toddheasley">github.com/toddheasley</a></p>
 </header>
-<main>
-    <h1>Homepage <a href="portfolio.html"><img src="hire.svg" alt="Hire me"></a></h1>
-    <figure id="portfolio">
-        <div>
-            <table>
-                <tr>
-                    <td><a href="darksky.html"><picture><source media="(prefers-color-scheme: dark)" srcset="darksky-app-dark.jpg"><img src="darksky-app.jpg"></picture></a></td>
-                    <td><a href="bigcartel-app.html"><picture><source media="(prefers-color-scheme: dark)" srcset="bigcartel-app-dark.png"><img src="bigcartel-app.png"></picture></a></td>
-                    <td><a href="uo-app.html"><img src="uo-app.jpg"></a></td>
-                </tr>
-            </table>
-        </div>
-        <h1><a href="portfolio.html">Portfolio</a></h1>
-    </figure>
-    <hr>
-    <h2>Apps, Etc.</h2>
-    <figure><a href="couchnado.html"><picture><source media="(prefers-color-scheme: dark)" srcset="couchnado-dark.jpg"><img src="couchnado.jpg"></picture></a></figure>
+<h1>Homepage</h1>
+<h2>Apps, etc. for Apple platforms</h2>
+<section>
     <table>
         <tr>
-            <td><a href="mixtapes.html"><picture><source media="(prefers-color-scheme: dark)" srcset="mixtapes-dark.png"><img src="mixtapes.png"></picture></a></td>
-            <td><a href="boats.html"><img src="boats.png"></a></td>
+            <td><a href="portfolio.html"><picture><source media="(prefers-color-scheme: dark)" srcset="hodinkee-dark.png"><img src="hodinkee.png"></picture> <iframe src="hodinkee.html" frameborder="no" scrolling="no"></iframe></a></td>
         </tr>
     </table>
-</main>
+</section>
+<hr>
+<section>
+    <p><a href="harsh-barge"><img src="harsh-barge.jpg"></a></p>
+</section>
 <footer>
-    <p><a href="https://github.com/toddheasley">@toddheasley</a></p>
+    <p><img src="index.gif"></p>
 </footer>
