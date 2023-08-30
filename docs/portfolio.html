@@ -58,10 +58,6 @@
     }
     
     @media print {
-        a[href^="mailto:"]:brefore {
-            content: "<" attr(href) ">";
-        }
-        
         body > h1 {
             visibility: hidden;
         }
@@ -78,8 +74,8 @@
             display: inline;
         }
         
-        section a[href^="http"]:after {
-            content: "<" attr(href) ">";
+        section a[title]:after {
+            content: "<" attr(title) ">";
         }
         
         section table {
@@ -89,20 +85,20 @@
     
 </style>
 <header>
-    <h1>Todd&nbsp;Heasley</h1>
+    <h1><a href="index.html">Todd&nbsp;Heasley</a></h1>
     <p><a href="https://github.com/toddheasley">github.com/toddheasley</a></p>
     <table>
         <tr>
-            <td><a href="javascript:window.print()">🖨️</a></td>
-            <td><a href="tel:16109963333"><span>+1 (610) 996-3333</span> 📞</a></td>
             <td><a href="mailto:toddheasley@me.com"><span>toddheasley@me.com</span> ✉️</a></td>
+            <td><a href="tel:16109963333"><span>+1 (610) 996-3333</span> 📟</a></td>
+            <td><a href="javascript:window.print()">🖨️</a></td>
         </tr>
     </table>
 </header>
 <h1>Portfolio</h1>
 <h2>Work</h2>
 <section>
-    <h3><a href="https://hodinkee.com">Hodinkee</a></h3>
+    <h3><a href="https://hodinkee.com" title="hodinkee.com">Hodinkee</a></h3>
     <p><time>November&nbsp;2021-September&nbsp;2022</time><br>Pretty complicated</p>
     <table>
         <tr>
@@ -112,7 +108,7 @@
 </section>
 <hr>
 <section>
-    <h3><a href="https://darksky.net">Dark Sky</a></h3>
+    <h3><a href="https://darksky.net" title="darksky.net">Dark Sky</a></h3>
     <p><time>May&nbsp;2017-December&nbsp;2018</time><br>Redesigned my favorite weather app with weather icons by <a href="https://iconfactory.com">Iconfactory</a></p>
     <table>
         <tr>
@@ -123,7 +119,7 @@
 </section>
 <hr>
 <section>
-    <h3><a href="https://bigcartel.com">Big Cartel</a></h3>
+    <h3><a href="https://bigcartel.com" title="bigcartel.com">Big Cartel</a></h3>
     <p><time>October&nbsp;2013-April&nbsp;2017, June&nbsp;2019-August&nbsp;2021</time><br>Made <a href="https://apps.apple.com/app/id739285899">Big Cartel iOS</a> for most of a decade</p>
     <table>
         <tr>
@@ -133,7 +129,7 @@
 </section>
 <hr>
 <section>
-    <h3><a href="https://urbanoutfitters.com">Urban&nbsp;Outfitters</a></h3>
+    <h3><a href="https://urbanoutfitters.com" title="urbanoutfitters.com">Urban&nbsp;Outfitters</a></h3>
     <p><time>May&nbsp;2008-September&nbsp;2013</time><br>Launched responsive <a href="https://urbanoutfitters.com">urbanoutfitters.com</a> and <a href="https://apps.apple.com/app/id358821736">UO's iPhone app</a></p>
     <table>
         <tr>
@@ -144,17 +140,17 @@
 </section>
 <hr>
 <section>
-    <h3><a href="https://freelibrary.org">Free&nbsp;Library</a></h3>
+    <h3><a href="https://freelibrary.org" title="freelibrary.org">Free&nbsp;Library</a></h3>
     <p><time>June&nbsp;2007-May&nbsp;2008</time><br>Started the <a href="https://libwww.freelibrary.org/podcast">Free Library Podcast</a></p>
 </section>
 <hr>
 <section>
-    <h3><a href="https://aol.com">AOL</a></h3>
+    <h3><a title="aol.com" href="https://aol.com">AOL</a></h3>
     <p><time>February&nbsp;2002-February&nbsp;2003, June&nbsp;2003-March&nbsp;2007</time><br>Web apps, content and graphics</p>
 </section>
 <h2>College</h2>
 <section>
-    <h3><a href="https://psu.edu">Penn&nbsp;State</a></h3>
+    <h3><a title="psu.edu" href="https://psu.edu">Penn&nbsp;State</a></h3>
     <p><time>June&nbsp;1996-December&nbsp;2000</time><br>BA Integrative Arts</p>
 </section>
 <footer>
