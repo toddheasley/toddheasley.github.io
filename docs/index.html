@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<title>Homepage - Todd Heasley</title>
+<title>Todd Heasley - Homepage</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="initial-scale=1.0">
-<meta name="og:image" content="https://toddheasley.github.io/hodinkee.png">
-<meta name="og:title" content="Homepage - Todd Heasley">
+<meta name="og:image" content="https://toddheasley.github.io/boats-app.png">
+<meta name="og:title" content="Todd Heasley - Homepage">
 <meta name="og:description" content="Apps, etc. for Apple platforms">
 <meta name="description" content="Apps, etc. for Apple platforms">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
@@ -11,51 +11,24 @@
 <link rel="stylesheet" href="html.css">
 <style>
     
-    a[href="harsh-barge"] {
-        display: block;
+    #harsh-barge {
         position: relative;
     }
     
-    a[href="harsh-barge"] b {
-        bottom: 10%;
+    #harsh-barge figcaption {
+        bottom: 1em;
         color: white;
         font: bold 1em ui-serif, serif;
+        left: 10vw;
         position: absolute;
-        text-align: center;
-        width: 75%;
-    }
-    
-    iframe[src="hodinkee.html"] {
-        bottom: 25.5%;
-        height: 50%;
-        left: 35%;
-        position: absolute;
-        transform: rotate(-86deg);
-        width: 30%;
-    }
-    
-    img[src="harsh-barge.jpg"] {
-        width: 100%;
     }
     
 </style>
 <header>
     <h1>Todd&nbsp;Heasley</h1>
-    <p><a href="https://github.com/toddheasley">github.com/toddheasley</a></p>
 </header>
 <h1>Homepage</h1>
-<h2>Apps, etc. for Apple platforms</h2>
-<section>
-    <table>
-        <tr>
-            <td><a href="portfolio.html"><picture><source media="(prefers-color-scheme: dark)" srcset="hodinkee-dark.png"><img src="hodinkee.png"></picture> <iframe src="hodinkee.html" frameborder="no" scrolling="no"></iframe></a></td>
-        </tr>
-    </table>
-</section>
-<hr>
-<section>
-    <p><a href="harsh-barge"><b>"Harsh&nbsp;Barge"</b> <img src="harsh-barge.jpg"></a></p>
-</section>
-<footer>
-    <p><img src="index.gif"></p>
-</footer>
+<figure><a href="portfolio.html"><span><img src="darksky-app.jpg"><img src="darksky-app-dark.jpg"></span></a> <figcaption><b class="h2"><a href="portfolio.html">Portfolio</a></b><br>Apps, etc. for Apple platforms</figure>
+<figure><a href="https://github.com/toddheasley/boats"><span><img src="boats-app.png"><img src="boats-app-dark.png"></span></a> <figcaption><b><a href="https://github.com/toddheasley/boats">Boats 5</a></b><br>A friendly, Apple-native companion to <a href="https://cascobaylines.com">cascobaylines.com</a><br><a href="https://itunes.apple.com/app/id1152562893"><img src="download.svg" alt="Download on the App Store"></a> <img src="badge-app.svg"> <img src="badge-web.svg"> <img src="badge-spm.svg"> <img src="badge-cli.svg"></figcaption></figure>
+<figure id="harsh-barge"><a href="harsh-barge"><img src="harsh-barge.jpg"></a> <figcaption>"Harsh Barge"</figcaption></figure>
+<p><a href="https://github.com/toddheasley">github.com/toddheasley</a></p>
