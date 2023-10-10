@@ -139,6 +139,8 @@ time {
     
     body {
         font-size: 7.5pt;
+        max-width: initial;
+        width: auto;
     }
     
     figcaption, h3 {
