@@ -2,8 +2,15 @@
     --background-tint: rgba(153, 153, 153, 0.15);
     --border-radius: 3.5px;
     --horizontal-edge-inset: 22px;
+    --link-color: midnightblue;
     -webkit-text-size-adjust: none;
     color-scheme: light dark;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --link-color: azure;
+    }
 }
 
 @media (max-width: 512px) {
@@ -14,6 +21,10 @@
 
 * {
     margin: 0;
+}
+
+a {
+    color: var(--link-color);
 }
 
 body {
@@ -127,8 +138,7 @@ time {
     }
     
     body {
-        font-size: 8pt;
-        max-width: 448pt;
+        font-size: 7.5pt;
     }
     
     figcaption, h3 {
