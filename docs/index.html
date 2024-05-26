@@ -27,26 +27,11 @@
         position: absolute;
     }
     
-    #mixtapes div {
-        background: var(--background-tint);
-        border-radius: var(--horizontal-edge-inset) var(--horizontal-edge-inset) 0 0;
-        box-shadow: 0 0 1px 0 var(--box-shadow) inset;
-        overflow-x: scroll;
-    }
-    
-    #mixtapes table {
-        border-collapse: collapse;
-        margin: 1em;
-        width: 1152px;
-    }
-    
-    #mixtapes td {
-        padding: 1em 1.5em 1em 0.5em;
-    }
-    
-    #mixtapes td img {
-        border-radius: 1.5px;
-        box-shadow: 1px 1px 1px 0 var(--box-shadow);
+    #mixtapes iframe {
+        background: rgba(0, 0, 0, 0.05);
+        border: none;
+        height: 224px;
+        width: 100%;
     }
     
 </style>
@@ -58,20 +43,7 @@
 <figure><a href="https://github.com/toddheasley/boats"><span><img src="boats-app.png"><img src="boats-app-dark.png"></span></a> <figcaption><b><a href="https://github.com/toddheasley/boats">Boats 5</a></b><br>A friendly, Apple-native companion to <a href="https://cascobaylines.com">cascobaylines.com</a><br><a href="https://itunes.apple.com/app/id1152562893"><img src="download.svg" alt="Download on the App Store"></a> <img src="badge-app.svg"> <img src="badge-web.svg"> <img src="badge-spm.svg"> <img src="badge-cli.svg"></figcaption></figure>
 <figure id="harsh-barge"><a href="harsh-barge"><img src="harsh-barge.jpg"></a> <figcaption>"Harsh Barge"</figcaption></figure>
 <figure id="mixtapes">
-    <div>
-        <table>
-            <tr>
-                <td><a href="https://s3.amazonaws.com/toddheasley/mixtapes/18.html"><img src="https://s3.amazonaws.com/toddheasley/mixtapes/18.png"></a></td>
-                <td><a href="https://s3.amazonaws.com/toddheasley/mixtapes/worry-in-your-heart.html"><img src="https://s3.amazonaws.com/toddheasley/mixtapes/worry-in-your-heart.png"></a></td>
-                <td><a href="https://s3.amazonaws.com/toddheasley/mixtapes/20-song-sequence.html"><img src="https://s3.amazonaws.com/toddheasley/mixtapes/20-song-sequence.png"></a></td>
-                <td><a href="https://s3.amazonaws.com/toddheasley/mixtapes/all-types-of-medicines.html"><img src="https://s3.amazonaws.com/toddheasley/mixtapes/all-types-of-medicines.jpg"></a></td>
-                <td><a href="https://s3.amazonaws.com/toddheasley/mixtapes/face-crud.html"><img src="https://s3.amazonaws.com/toddheasley/mixtapes/face-crud.jpg"></a></td>
-                <td><a href="https://s3.amazonaws.com/toddheasley/mixtapes/oodles.html"><img src="https://s3.amazonaws.com/toddheasley/mixtapes/oodles.jpg"></a></td>
-                <td><a href="https://s3.amazonaws.com/toddheasley/mixtapes/weight.html"><img src="https://s3.amazonaws.com/toddheasley/mixtapes/weight.jpg"></a></td>
-                <td><a href="https://s3.amazonaws.com/toddheasley/mixtapes/sparks.html"><img src="https://s3.amazonaws.com/toddheasley/mixtapes/sparks.jpg"></a></td>
-            </tr>
-        </table>
-    </div>
+    <iframe src="https://s3.amazonaws.com/toddheasley/mixtapes/promo.html"></iframe>
     <figcaption><b><a href="https://s3.amazonaws.com/toddheasley/mixtapes/index.html">Mixtapes</a></b><br>My favorite music in podcast format</figcaption>
 </figure>
 <p><a href="https://github.com/toddheasley">github.com/toddheasley</a></p>
