@@ -1,21 +1,7 @@
-# Homepage
-
-### [Portfolio](https://toddheasley.github.io/portfolio.html)
-
-[![](docs/darksky-app.jpg)](https://toddheasley.github.io/portfolio.html)
-
-Apps, etc. for Apple platforms
+[![](https://toddheasley.github.io/couchnado/couchnado-tv.png)](https://github.com/toddheasley/couchnado)
 
 -----
 
-#### [Boats 5](https://github.com/toddheasley/boats)
+[![](https://toddheasley.github.io/harsh-barge/promo.png)](https://toddheasley.github.io/harsh-barge)
 
-[![](docs/boats-app.png)](https://github.com/toddheasley/boats)
-
-A friendly, Apple-native companion to [cascobaylines.com](https://cascobaylines.com)
-
-[![Download on the App Store](docs/download.svg)](https://itunes.apple.com/app/id1152562893)
-
------
-
-[![](docs/harsh-barge.jpg)](https://toddheasley.github.io/harsh-barge)
+### [PORTFOLIO](https://toddheasley.github.io/portfolio.html)

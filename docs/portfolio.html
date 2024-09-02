@@ -5,21 +5,110 @@
 <meta name="og:image" content="https://toddheasley.github.io/darksky-app.jpg">
 <meta name="og:title" content="Todd Heasley - Portfolio">
 <meta name="og:description" content="Apps, etc. for Apple platforms">
-<meta name="description" content="Apps, etc. for Apple platforms">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
-<link rel="shortcut icon" href="favicon.ico">
-<link rel="stylesheet" href="html.css">
-<header>
-    <h1>Todd&nbsp;Heasley</h1>
-</header>
-<h1>Portfolio</h1>
-<h3>Apps, etc. for Apple platforms</h3>
-<figure><a href="darksky-app.jpg"><span><img src="darksky-app.jpg"><img src="darksky-app-dark.jpg"></span></a> <a href="darksky-weather.png"><span><img src="darksky-weather.png"><img src="darksky-weather-dark.png"></span> <figcaption><b><a href="https://darksky.net">Dark Sky Weather</a></b><br>iOS/watchOS app and command-line interface<br><time>2017-18</time><br><img src="badge-app.svg"> <img src="badge-cli.svg"></figcaption></figure>
-<figure><a href="bigcartel-app.png"><span><img src="bigcartel-app.png"><img src="bigcartel-app-dark.png"></span></a> <figcaption><b><a href="https://www.bigcartel.com">Big Cartel</a></b><br>iOS/watchOS app<br><time>2013-17; 2019-21</time><br><a href="https://apps.apple.com/app/id739285899"><img src="download.svg" alt="Download on the App Store"></a> <img src="badge-app.svg"></figcaption></figure>
-<figure><a href="uo-app.jpg"><img src="uo-app.jpg"></a> <a href="uo-app.gif"><img src="uo-app.gif"></a> <figcaption><b><a href="https://www.urbanoutfitters.com">Urban Outfitters</a></b><br>iOS app and music streaming platform<br><time>2009-13</time><br><img src="badge-app.svg"> <img src="badge-web.svg"></figcaption></figure>
-<p><a href="resume.html">Resume</a></p>
-<p>Open source projects from<br><a href="https://github.com/toddheasley">github.com/toddheasley</a>:</p>
-<h3><b><a href="https://github.com/toddheasley/boats">Boats</a></b><br>macOS/iOS/watchOS ferry schedules<br><time>2015-</time><br><a href="https://itunes.apple.com/app/id1152562893"><img src="download.svg" alt="Download on the App Store"></a> <img src="badge-app.svg"> <img src="badge-web.svg"> <img src="badge-spm.svg"> <img src="badge-cli.svg"></h3>
-<h3><b><a href="https://github.com/toddheasley/mixtapes">Mixtapes</a></b><br>macOS podcast publisher<br><time>2018-</time><br><img src="badge-app.svg"> <img src="badge-web.svg"> <img src="badge-spm.svg"></h3>
-<h3><b><a href="https://github.com/toddheasley/weather"><code>Weather</code></a></b><br>Dark Sky CLI and Swift SDK<br><time>2020</time><br><img src="badge-spm.svg"> <img src="badge-cli.svg"></h3>
-<h3><b><a href="https://github.com/toddheasley/zxcvbn"><code>Zxcvbn</code></a></b><br>Swift/SwiftUI port of Dropbox Zxcvbn<br><time>2020-22</time><br><img src="badge-spm.svg"> <img src="badge-cli.svg"></h3>
+<link rel="icon" href="favicon.ico">
+<table>
+    <tr>
+        <td>
+            <span><b>Portfolio</b><br><br><a href="index.html">Todd&nbsp;Heasley</a><br>Apps, etc. for Apple platforms<br><br></span>
+            <span><a href="https://www.urbanoutfitters.com">Urban Outfitters</a> <time>2008-13</time></span>
+            <span>Dark Sky Weather <time>2017-18</time></span>
+            <span><a href="https://www.bigcartel.com">Big Cartel</a> <time>2013-17, 2019-21</time></span>
+            <span><a href="https://www.hodinkee.com">Hodinkee</a> <time>2021-22</time></span>
+            <span><a href="https://www.aetna.com">Aetna Health</a> <time>2024-&nbsp;&nbsp;</time></span>
+            <span><br><br></span>
+            <span><a href="https://github.com/toddheasley">github.com/toddheasley</a></span>
+        </td>
+        <td>
+            <a href="darksky-app.jpg"><img src="darksky-app.jpg" class="light"><img src="darksky-app-dark.jpg" class="dark"></a>
+            <a href="darksky-cli.png"><img src="darksky-cli.png" class="light"><img src="darksky-cli-dark.png" class="dark"></a>
+            <span>Dark Sky Weather <time>2017-18</time></span>
+        </td>
+        <td>
+            <a href="uo-app.jpg"><img src="uo-app.jpg"></a>
+            <a href="uo-app.gif"><img src="uo-app.gif"></a>
+            <span><a href="https://www.urbanoutfitters.com">Urban Outfitters</a> <time>2012-13</time></span>
+        </td>
+        <td>
+            <a href="boats-app.png"><img src="boats-app.png" class="light"><img src="boats-app-dark.png" class="dark"></span></a>
+            <span><a href="https://github.com/toddheasley/boats">Boats</a> <time>2015-&nbsp;&nbsp;</time></span>
+        </td>
+    </tr>
+</table>
+<style>
+    
+    :root {
+        color-scheme: light dark;
+        -webkit-text-size-adjust: none;
+    }
+    
+    * {
+        margin: 0;
+    }
+    
+    b {
+        font-size: 2.5em;
+        letter-spacing: 0.5px;
+        opacity: 0.83;
+        text-transform: uppercase;
+    }
+    
+    body {
+        font: 0.83em ui-sans-serif, sans-serif;
+    }
+    
+    img {
+        display: block;
+        max-width: 100%;
+    }
+    
+    img.dark {
+        display: none;
+    }
+    
+    @media (prefers-color-scheme: dark) {
+        img.light {
+            display: none;
+        }
+        
+        img.dark {
+            display: block;
+        }
+    }
+    
+    span {
+        display: block;
+        margin: 2.5px 7.5px;
+        position: relative;
+        width: calc(100% - 15px);
+    }
+    
+    span:last-child {
+        bottom: 0;
+        position: absolute;
+    }
+    
+    table {
+        border-spacing: 1em;
+        margin: 0 auto;
+    }
+    
+    td {
+        background: rgba(192, 192, 192, 0.2);
+        box-shadow: 0 0 0.5px;
+        line-height: 1.5em;
+        max-width: 320px;
+        min-width: 320px;
+        padding: 0;
+        position: relative;
+    }
+    
+    time {
+        bottom: 0;
+        font: 0.96em ui-monospace, monospace;
+        opacity: 0.67;
+        position: absolute;
+        right: 0;
+    }
+    
+</style>

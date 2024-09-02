@@ -2,48 +2,98 @@
 <title>Todd Heasley - Homepage</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="initial-scale=1.0">
-<meta name="og:image" content="https://toddheasley.github.io/boats-app.png">
+<meta name="og:image" content="https://toddheasley.github.io/darksky-app.jpg">
 <meta name="og:title" content="Todd Heasley - Homepage">
 <meta name="og:description" content="Apps, etc. for Apple platforms">
-<meta name="description" content="Apps, etc. for Apple platforms">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
-<link rel="shortcut icon" href="favicon.ico">
-<link rel="stylesheet" href="html.css">
+<link rel="icon" href="favicon.ico">
+<table>
+    <tr>
+        <td><span><a href="https://github.com/toddheasley/couchnado"><img src="couchnado/couchnado-tv.png"></a></span></td>
+        <!-- <td><iframe id="lego" src="file:///Users/toddheasley/Documents/LEGO/lego/docs/promo.html"></iframe></td> -->
+    </tr>
+    <tr>
+        <td><hr></td>
+    </tr>
+    <tr>
+        <td><iframe id="mixtapes" src="https://s3.amazonaws.com/toddheasley/mixtapes/promo.html"></iframe></td>
+    </tr>
+    <tr>
+        <td><span id="harsh-barge"><a href="harsh-barge"><img src="harsh-barge/promo.png"></a></span></td>
+    </tr>
+    <tr>
+        <td><span><a href="https://github.com/toddheasley">github.com/toddheasley</a></span></td>
+    </tr>
+    <tr>
+        <td><span><b><a href="portfolio.html">Portfolio</a></b></span></td>
+    </tr>
+</table>
 <style>
     
     :root {
-        --box-shadow: rgba(0, 0, 0, 0.33);
+        color-scheme: light dark;
+        -webkit-text-size-adjust: none;
     }
     
-    #harsh-barge {
-        position: relative;
+    * {
+        margin: 0;
     }
     
-    #harsh-barge figcaption {
-        bottom: 1em;
-        color: white;
-        font: bold 1em ui-serif, serif;
-        left: 10vw;
-        position: absolute;
+    b {
+        font-size: 1.5em;
+        letter-spacing: 0.5px;
+        opacity: 0.83;
+        text-transform: uppercase;
     }
     
-    #mixtapes iframe {
-        background: rgba(0, 0, 0, 0.05);
-        border: none;
-        height: 144px;
+    body {
+        font: 0.83em ui-sans-serif, sans-serif;
+    }
+    
+    hr {
+        margin: 1.5px 3.5px;
+        max-width: 448px;
+        opacity: 0.33;
+    }
+     
+    iframe, img {
+        border: 0;
+        display: block;
         width: 100%;
     }
     
+    iframe#lego {
+        border-radius: 21.5px;
+        height: 512px;
+    }
+    
+    iframe#mixtapes {
+        background: rgba(192, 192, 192, 0.2);
+        border-radius: 2.5px;
+        box-shadow: 0px 0px 1.5px rgba(128, 128, 128, 0.5) inset;
+        height: 136px;
+        max-width: 672px;
+    }
+    
+    span {
+        display: block;
+    }
+    
+    span#harsh-barge {
+        border-radius: 2.5px;
+        max-width: 512px;
+        overflow: hidden;
+    }
+    
+    table {
+        border-spacing: 1em;
+        margin: 0 auto;
+        max-width: 768px;
+        width: 100%;
+    }
+    
+    td {
+        padding: 0;
+    }
+    
 </style>
-<header>
-    <h1>Todd&nbsp;Heasley</h1>
-</header>
-<h1>Homepage</h1>
-<figure><a href="portfolio.html"><span><img src="darksky-app.jpg"><img src="darksky-app-dark.jpg"></span></a> <figcaption><b class="h2"><a href="portfolio.html">Portfolio</a></b><br>Apps, etc. for Apple platforms</figure>
-<figure><a href="https://github.com/toddheasley/boats"><span><img src="boats-app.png"><img src="boats-app-dark.png"></span></a> <figcaption><b><a href="https://github.com/toddheasley/boats">Boats 5</a></b><br>A friendly, Apple-native companion to <a href="https://cascobaylines.com">cascobaylines.com</a><br><a href="https://itunes.apple.com/app/id1152562893"><img src="download.svg" alt="Download on the App Store"></a> <img src="badge-app.svg"> <img src="badge-web.svg"> <img src="badge-spm.svg"> <img src="badge-cli.svg"></figcaption></figure>
-<figure id="harsh-barge"><a href="harsh-barge"><img src="harsh-barge.jpg"></a> <figcaption>"Harsh Barge"</figcaption></figure>
-<figure id="mixtapes">
-    <iframe src="https://s3.amazonaws.com/toddheasley/mixtapes/promo.html"></iframe>
-    <figcaption><b><a href="https://s3.amazonaws.com/toddheasley/mixtapes/index.html">Mixtapes</a></b><br>My favorite music in podcast format</figcaption>
-</figure>
-<p><a href="https://github.com/toddheasley">github.com/toddheasley</a></p>

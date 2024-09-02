@@ -2,45 +2,102 @@
 <title>Todd Heasley - Resume</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="initial-scale=1.0">
-<meta name="og:image" content="https://toddheasley.github.io/darksky-app.jpg">
 <meta name="og:title" content="Todd Heasley - Resume">
 <meta name="og:description" content="Apps, etc. for Apple platforms">
-<meta name="description" content="Apps, etc. for Apple platforms">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
-<link rel="shortcut icon" href="favicon.ico">
-<link rel="stylesheet" href="html.css">
+<link rel="icon" href="favicon.ico">
+<table>
+    <tr>
+        <td colspan="2"><a href="index.html">Todd&nbsp;Heasley</a><br>Apps, etc. for Apple platforms</td>
+    </tr>
+    <tr>
+        <td colspan="2"><br><br><b>Work</b></td>
+    </tr>
+    <tr>
+        <td>Staff, <a href="https://www.aetna.com">Aetna Health</a></td>
+        <td><time>Feb 2024-<del>Oct 2027</del></time></td>
+    </tr>
+    <tr>
+        <td>Apps, <a href="https://www.hodinkee.com">Hodinkee</a></td>
+        <td><time>Nov 2021-Dec 2022</time></td>
+    </tr>
+    <tr>
+        <td>iOS, <a href="https://www.bigcartel.com">Big Cartel</a></td>
+        <td><time>Jun 2019-Aug 2021</time></td>
+    </tr>
+    <tr>
+        <td>iOS, Dark Sky Weather</td>
+        <td><time>May 2017-Dec 2018</time></td>
+    </tr>
+    <tr>
+        <td>iOS, <a href="https://www.bigcartel.com">Big Cartel</a></td>
+        <td><time>Oct 2013-Apr 2017</time></td>
+    </tr>
+    <tr>
+        <td>iOS, <a href="https://www.urbanoutfitters.com">Urban Outfitters</a></td>
+        <td><time>May 2008-Sep 2013</time></td>
+    </tr>
+    <tr>
+        <td colspan="2"><br><br><b>College</b></td>
+    </tr>
+    <tr>
+        <td>BA, <a href="https://www.psu.edu">Penn State</a></td>
+        <td><time>Jun 1996-Dec 2000</time></td>
+    </tr>
+    <tr>
+        <td colspan="2"><br><br><a href="https://github.com/toddheasley">github.com/toddheasley</a></td>
+    </tr>
+</table>
 <style>
     
-    body > h1 {
+    :root {
+        color-scheme: light dark;
+        -webkit-text-size-adjust: none;
+    }
+    
+    * {
+        margin: 0;
+    }
+    
+    @media print {
+        a {
+            color: inherit;
+            text-decoration: none;
+        }
+    }
+    
+    b {
+        opacity: 0.83;
+        text-transform: uppercase;
+    }
+    
+    body {
+        font: 0.83em ui-sans-serif, sans-serif;
+        margin: 1em;
+    }
+    
+    del {
         visibility: hidden;
     }
     
+    table {
+        max-width: 384px;
+        width: 100%;
+    }
+    
+    td {
+        line-height: 1.5em;
+        padding: 2.5px 0;
+        vertical-align: top;
+    }
+    
+    td:nth-child(2) {
+        text-align: right;
+    }
+    
+    time {
+        font: 0.96em ui-monospace, monospace;
+        opacity: 0.67;
+    }
+    
 </style>
-<header>
-    <h1>Todd&nbsp;Heasley<br><a href="mailto:toddheasley@me.com">toddheasley@me.com</a></h1>
-</header>
-<h1>Resume</h1>
-<h2>Work</h2>
-<h3><b>App Developer, <a href="https://www.salishseasoftware.com">Salish Sea Software</a></b><br><time>Aug 2023-</time></h3>
-<p>Starting a new (boat-based) adventure with friends…</p>
-<h3><b>Contract Product Developer, <a href="https://pyrezo.com">Pyrezo</a></b><br><time>Oct 2022-May 2023</time></h3>
-<p>Developed <a href="https://apps.apple.com/app/id1636229886">Capture</a>, a new SwiftUI app that guides homeowners in the <a href="https://www.nps.gov/articles/wildland-urban-interface.htm">WUI</a> through a computer-vision capture of a home or other structure for wildfire risk assessment, using any iPhone or iPad.</p>
-<h3><b>Mobile Director, <a href="https://www.hodinkee.com">Hodinkee</a></b><br><time>Nov 2021-Dec 2022</time></h3>
-<p>Led a remote, cross-functional team that built and launched a new native shopping experience for Hodinkee on both <a href="https://play.google.com/store/apps/details?id=com.hodinkee.zeitwerk">Android</a> and <a href="https://apps.apple.com/app/id1008305274">iOS.</a>
-<h3><b>Software Engineer, <a href="https://www.bigcartel.com">Big Cartel</a></b><br><time>Jun 2019-Aug 2021</time></h3>
-<p>Replatformed Big Cartel on <a href="https://graphql.org">GraphQL.</a> Led GraphQL interface design and wrote the Swift SDK. Shipped the 6th major version of <a href="https://apps.apple.com/app/id739285899">Big Cartel iOS.</a></p>
-<h3><b>Software Developer, <a href="https://darksky.net">Dark Sky Weather</a></b><br><time>May 2017-Dec 2018</time></h3>
-<p>Redesigned and rewrote my favorite weather app with a Tufte-inspired infographic design that showed <a href="https://nightingaledvs.com/dark-sky-weather-data-viz">"the shape of the weather at a glance"</a> and included a composable weather icon system designed by <a href="https://iconfactory.com">the Iconfactory.</a></p>
-<h3><b>iOS Developer, <a href="https://www.bigcartel.com">Big Cartel</a></b><br><time>Oct 2013-Apr 2017</time></h3>
-<p>Launched the <a href="https://apps.apple.com/app/id739285899">Big Cartel iOS app</a> as an in-person checkout/point of sale that piloted the <a href="https://stripe.com/docs/libraries/ios">Stripe SDK.</a> Developed the next 3 major versions of the app, growing it quickly to fully support all Big Cartel admin and order fulfillment capabilities.</p>
-<h3><b>Senior Software Developer, <a href="https://www.urbanoutfitters.com">Urban Outfitters</a></b><br><time>May 2008-Sep 2013</time></h3>
-<p>Developed a Mac-native, iTunes-based music streaming platform that Urban Outfitters used in stores and online from 2010.</p>
-<p>Launched the <a href="https://apps.apple.com/app/id358821736">UO iPhone app</a>, a fully native shopping and checkout experience with music streaming and background audio.</p>
-<!-- <h3><b>Web Developer, <a href="https://www.freelibrary.org">Free Library</a></b><br><time>Jun 2007-May 2008</time></h3> -->
-<!-- <p>Started <a href="https://libwww.freelibrary.org/podcast">Free Library Podcasts.</a></p> -->
-<!-- <h3><b>Web Editor, <a href="https://www.aol.com">AOL</a></b><br><time>Feb 2002-Mar 2007</time></h3> -->
-<!-- <h2>College</h2> -->
-<!-- <h3><b>BA Integrative Arts, <a href="https://www.psu.edu">Penn State</a></b><br><time>Jun 1996-Dec 2000</time></h3> -->
-<hr>
-<p>Code samples and open source projects available at <a href="https://github.com/toddheasley">github.com/toddheasley.</a></p>
-<p>Voice or text: <a href="tel:16109963333">+1 (610) 996-3333</a></p>
