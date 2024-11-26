@@ -1,4 +1,4 @@
-[![](https://toddheasley.github.io/couchnado/couchnado-tv.png)](https://github.com/toddheasley/couchnado)
+[![](https://toddheasley.github.io/brickset/brickset-cli.png)](https://github.com/toddheasley/brickset)
 
 -----
 
