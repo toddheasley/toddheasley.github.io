@@ -1,93 +1,98 @@
 <!DOCTYPE html>
 <title>Todd Heasley - Resume</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="initial-scale=1.0">
 <meta name="og:title" content="Todd Heasley - Resume">
 <meta name="og:description" content="Apps, etc. for Apple platforms">
+<meta name="og:image" content="https://toddheasley.github.io/share.jpg">
+<meta name="viewport" content="initial-scale=1.0">
+<meta charset="UTF-8">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
 <link rel="icon" href="favicon.ico">
+<link rel="stylesheet" href="html.css">
 <table>
     <tr>
         <td colspan="2"><a href="index.html">Todd&nbsp;Heasley</a><br>Apps, etc. for Apple platforms</td>
     </tr>
     <tr>
-        <td colspan="2"><br><br><b>Work</b></td>
+        <td colspan="2">&nbsp;</td>
     </tr>
     <tr>
-        <td>Staff, <a href="https://www.aetna.com">Aetna Health</a></td>
-        <td><time>Feb 2024-<del>Oct 2027</del></time></td>
+        <td colspan="2">&nbsp;</td>
     </tr>
     <tr>
-        <td>Apps, <a href="https://www.hodinkee.com">Hodinkee</a></td>
+        <td colspan="2"><b>Portfolio</b> <hr></td>
+    </tr>
+    <tr>
+        <td colspan="2"><iframe src="portfolio.html"></iframe></td>
+    </tr>
+    <tr>
+        <td colspan="2">&nbsp;</td>
+    </tr>
+    <tr>
+        <td colspan="2"><b>Work</b> <hr></td>
+    </tr>
+    <tr>
+        <td>Staff&nbsp;iOS at <a href="https://aetna.com">Aetna&nbsp;Health</a></td>
+        <td><time>Feb 2024-<del>Jan 2025</del></time></td>
+    </tr>
+    <tr>
+        <td>Apps&nbsp;Director at <a href="https://hodinkee.com">Hodinkee</a></td>
         <td><time>Nov 2021-Dec 2022</time></td>
     </tr>
     <tr>
-        <td>iOS, <a href="https://www.bigcartel.com">Big Cartel</a></td>
+        <td>iOS at <a href="https://bigcartel.com">Big&nbsp;Cartel</a></td>
         <td><time>Jun 2019-Aug 2021</time></td>
     </tr>
     <tr>
-        <td>iOS, Dark Sky Weather</td>
+        <td>iOS at Dark&nbsp;Sky&nbsp;Weather</td>
         <td><time>May 2017-Dec 2018</time></td>
     </tr>
     <tr>
-        <td>iOS, Big Cartel</td>
+        <td>iOS at Big&nbsp;Cartel</td>
         <td><time>Oct 2013-Apr 2017</time></td>
     </tr>
     <tr>
-        <td>iOS, <a href="https://www.urbanoutfitters.com">Urban Outfitters</a></td>
+        <td>iOS at <a href="https://urbanoutfitters.com">Urban&nbsp;Outfitters</a></td>
         <td><time>May 2008-Sep 2013</time></td>
     </tr>
     <tr>
-        <td colspan="2"><br><br><b>College</b></td>
+        <td colspan="2">&nbsp;</td>
     </tr>
     <tr>
-        <td>BA, <a href="https://www.psu.edu">Penn State</a></td>
+        <td colspan="2"><b>College</b> <hr></td>
+    </tr>
+    <tr>
+        <td>BA from <a href="https://psu.edu">Penn&nbsp;State</a></td>
         <td><time>Jun 1996-Dec 2000</time></td>
     </tr>
     <tr>
-        <td colspan="2"><br><br><a href="https://github.com/toddheasley">github.com/toddheasley</a></td>
+        <td colspan="2">&nbsp;</td>
+    </tr>
+    <tr>
+        <td colspan="2"><a href="https://github.com/toddheasley">github.com/toddheasley</a></td>
     </tr>
 </table>
 <style>
-    
-    :root {
-        color-scheme: light dark;
-        -webkit-text-size-adjust: none;
-    }
-    
-    * {
-        margin: 0;
-    }
-    
-    @media print {
-        a {
-            color: inherit;
-            text-decoration: none;
-        }
-    }
-    
-    b {
-        opacity: 0.83;
-        text-transform: uppercase;
-    }
-    
-    body {
-        font: 0.83em ui-sans-serif, sans-serif;
-        margin: 1em;
-    }
     
     del {
         visibility: hidden;
     }
     
+    iframe {
+        height: 360px;
+    }
+    
+    @media print {
+        iframe {
+            height: 192px;
+        }
+    }
+    
     table {
-        max-width: 384px;
-        width: 100%;
+        border-spacing: 0 1em;
+        max-width: 640px;
     }
     
     td {
-        line-height: 1.5em;
-        padding: 2.5px 0;
         vertical-align: top;
     }
     
@@ -96,8 +101,13 @@
     }
     
     time {
-        font: 0.96em ui-monospace, monospace;
-        opacity: 0.67;
+        margin-left: 1em;
+    }
+    
+    @media (max-width: 319px) {
+        time {
+            display: none;
+        }
     }
     
 </style>

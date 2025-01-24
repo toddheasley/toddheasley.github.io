@@ -1,118 +1,76 @@
 <!DOCTYPE html>
 <title>Todd Heasley - Portfolio</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="initial-scale=1.0">
-<meta name="og:image" content="https://toddheasley.github.io/darksky-app.jpg">
 <meta name="og:title" content="Todd Heasley - Portfolio">
 <meta name="og:description" content="Apps, etc. for Apple platforms">
+<meta name="og:image" content="https://toddheasley.github.io/share.jpg">
+<meta name="viewport" content="initial-scale=1.0">
+<meta charset="UTF-8">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
 <link rel="icon" href="favicon.ico">
+<link rel="stylesheet" href="html.css">
 <table>
     <tr>
-        <td>
-            <span><b>Portfolio</b><br><br><a href="index.html">Todd&nbsp;Heasley</a><br>Apps, etc. for Apple platforms<br><br></span>
-            <span><a href="https://www.urbanoutfitters.com">Urban Outfitters</a> <time>2008-13</time></span>
-            <span>Dark Sky Weather <time>2017-18</time></span>
-            <span><a href="https://www.bigcartel.com">Big Cartel</a> <time>2013-17, 2019-21</time></span>
-            <span><a href="https://www.hodinkee.com">Hodinkee</a> <time>2021-22</time></span>
-            <span><a href="https://www.aetna.com">Aetna Health</a> <time>2024-<del>27</del></time></span>
-            <span><br><br></span>
-            <span><a href="https://github.com/toddheasley">github.com/toddheasley</a></span>
-        </td>
-        <td>
-            <a href="darksky-app.jpg"><img src="darksky-app.jpg" class="light"><img src="darksky-app-dark.jpg" class="dark"></a>
-            <a href="darksky-cli.png"><img src="darksky-cli.png" class="light"><img src="darksky-cli-dark.png" class="dark"></a>
-            <span>Dark Sky Weather <time>2017-18</time></span>
-        </td>
-        <td>
-            <a href="uo-app.jpg"><img src="uo-app.jpg"></a>
-            <a href="uo-app.gif"><img src="uo-app.gif"></a>
-            <span><a href="https://www.urbanoutfitters.com">Urban Outfitters</a> <time>2012-13</time></span>
-        </td>
-        <td>
-            <a href="boats-app.png"><img src="boats-app.png" class="light"><img src="boats-app-dark.png" class="dark"></span></a>
-            <span><a href="https://github.com/toddheasley/boats">Boats</a> <time>2015-&nbsp;&nbsp;</time></span>
-        </td>
+        <td><a href="bigcartel-app.png" target="_parent"><span class="dark"><img src="bigcartel-app.png"><img src="bigcartel-app-dark.png"></span></a> <span><a href="https://bigcartel.com" target="_parent">Big&nbsp;Cartel</a> <time>2019-21</time><span></td>
+        <td><a href="boats-app.png" target="_parent"><span class="dark"><img src="boats-app.png"><img src="boats-app-dark.png"></span></a> <span><a href="https://github.com/toddheasley/boats" target="_parent">Boats</a> <time>2015-&nbsp;&nbsp;</time></span></td>
+        <td><a href="weather-cli.png" target="_parent"><span class="dark"><img src="weather-cli.png"><img src="weather-cli-dark.png"></a> <span><a href="https://github.com/toddheasley/weather" target="_parent">Weather&nbsp;CLI</a> <time>2019-21</time></span></td>
+        <td><a href="darksky-app.jpg" target="_parent"><span class="dark"><img src="darksky-app.jpg"><img src="darksky-app-dark.jpg"></span></a> <span>Dark&nbsp;Sky <time>2017-18</time></span></td>
+        <td><a href="mixtapes-app.png" target="_parent"><span class="dark"><img src="mixtapes-app.png"><img src="mixtapes-app-dark.png"></span></a> <span><a href="https://github.com/toddheasley/mixtapes" target="_parent">Mixtapes</a> <time>2019-24</time></span></td>
+        <td><a href="tanktop-app.png" target="_parent"><span class="dark"><img src="tanktop-app.png"><img src="tanktop-app-dark.png"></span></a> <span><a href="https://github.com/toddheasley/tanktop" target="_parent">Tanktop</a> <time>2019-21</time></span></td>
+        <td><a href="bigcartel-app-a.jpg" target="_parent"><img src="bigcartel-app-a.jpg"></a> <a href="bigcartel-app-b.jpg" target="_parent"><img src="bigcartel-app-b.jpg"></a> <span>Big&nbsp;Cartel <time>2013-16</time></span></td>
+        <td><a href="uo-app.gif" target="_parent"><img src="uo-app.gif"></a> <span><a href="https://urbanoutfitters.com" target="_parent">Urban&nbsp;Outfitters</a> <time>2011-13</time></span></td>
     </tr>
 </table>
 <style>
     
-    :root {
-        color-scheme: light dark;
-        -webkit-text-size-adjust: none;
-    }
-    
-    * {
-        margin: 0;
-    }
-    
-    b {
-        font-size: 2.5em;
-        letter-spacing: 0.5px;
-        opacity: 0.83;
-        text-transform: uppercase;
-    }
-    
     body {
-        font: 0.83em ui-sans-serif, sans-serif;
-    }
-    
-    del {
-        visibility: hidden;
+        margin: 0;
     }
     
     img {
         display: block;
-        max-width: 100%;
+        width: 60vh;
     }
     
-    img.dark {
-        display: none;
+    img[src^="bigcartel-app"] {
+        width: 75vh;
     }
     
-    @media (prefers-color-scheme: dark) {
-        img.light {
-            display: none;
-        }
-        
-        img.dark {
-            display: block;
-        }
+    img[src$=".jpg"] {
+        background: rgba(255, 255, 255, 0.9);
+        border-radius: 2px;
+        border: 0;
+        box-shadow: 0 0 1.5px 0 rgba(33, 33, 33, 0.5);
+        margin: 1.5vh 1vh;
+        padding: 1vh;
+        width: 50vh;
+    }
+    
+    img[src^="darksky-app"] {
+        width: 45vh;
     }
     
     span {
         display: block;
-        margin: 2.5px 7.5px;
-        position: relative;
-        width: calc(100% - 15px);
-    }
-    
-    span:last-child {
-        bottom: 0;
-        position: absolute;
     }
     
     table {
-        border-spacing: 1em;
-        margin: 0 auto;
+        border-spacing: 5vh;
     }
     
-    td {
-        background: rgba(192, 192, 192, 0.2);
-        box-shadow: 0 0 0.5px;
-        line-height: 1.5em;
-        max-width: 320px;
-        min-width: 320px;
-        padding: 0;
-        position: relative;
+    td > span {
+        margin: 0 3vh;
+        text-wrap: nowrap;
     }
     
     time {
-        bottom: 0;
-        font: 0.96em ui-monospace, monospace;
-        opacity: 0.67;
-        position: absolute;
-        right: 0;
+        display: inline-block;
+        margin-left: 1em;
+    }
+    
+    @media (max-height: 319px) {
+        time {
+            display: none;
+        }
     }
     
 </style>

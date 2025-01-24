@@ -1,122 +1,101 @@
 <!DOCTYPE html>
 <title>Todd Heasley - Homepage</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="initial-scale=1.0">
-<meta name="og:image" content="https://toddheasley.github.io/darksky-app.jpg">
 <meta name="og:title" content="Todd Heasley - Homepage">
 <meta name="og:description" content="Apps, etc. for Apple platforms">
+<meta name="og:image" content="https://toddheasley.github.io/index.gif">
+<meta name="viewport" content="initial-scale=1.0">
+<meta charset="UTF-8">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
 <link rel="icon" href="favicon.ico">
+<link rel="stylesheet" href="html.css">
 <table>
     <tr>
-        <td><span id="brickset"><a href="https://github.com/toddheasley/brickset"><img src="brickset-cli.png"><img src="brickset-cli-dark.png"></a></span></td>
+        <td colspan="2">Todd&nbsp;Heasley<br>Apps, etc. for Apple platforms</td>
     </tr>
     <tr>
-        <td><hr></td>
+        <td><img src="index.gif"></td>
+    </tr>
+    <tr>
+        <td><b>Apps, Etc.</b> <hr></td>
+    </tr>
+    <tr>
+        <td><a href="https://github.com/toddheasley/boats"><span id="boats" class="dark"><img src="boats-mac.png"><img src="boats-mac-dark.png"></span></a> <a href="https://itunes.apple.com/app/id1152562893"><img src="download.svg" alt="Download on the App Store"></a></td>
+    </tr>
+    <tr>
+        <td><a href="https://github.com/toddheasley/brickset"><span id="brickset" class="dark"><img src="brickset-cli.png"><img src="brickset-cli-dark.png"></span></a></td>
+    </tr>
+    <tr>
+        <td>&nbsp;</td>
+    </tr>
+    <tr>
+        <td><b>Portfolio</b> <hr></td>
+    </tr>
+    <tr>
+        <td><iframe id="portfolio" src="portfolio.html"></iframe></td>
+    </tr>
+    <tr>
+        <td>&nbsp;</td>
+    </tr>
+    <tr>
+        <td><b>Other Projects</b> <hr></td>
     </tr>
     <tr>
         <td><iframe id="mixtapes" src="https://s3.amazonaws.com/toddheasley/mixtapes/promo.html"></iframe></td>
     </tr>
     <tr>
-        <td><span id="harsh-barge"><a href="https://toddheasley.github.io/harsh-barge"><img src="https://toddheasley.github.io/harsh-barge/promo.png"></a></span></td>
-    </tr>
-    <tr>
-        <td><span><a href="https://github.com/toddheasley">github.com/toddheasley</a></span></td>
-    </tr>
-    <tr>
-        <td><span><b><a href="portfolio.html">Portfolio</a></b></span></td>
+        <td><a href="https://toddheasley.github.io/harsh-barge"><img src="https://toddheasley.github.io/harsh-barge/promo.png"></a></td>
     </tr>
     <tr>
         <td>&nbsp;</td>
     </tr>
+    <tr>
+        <td>&nbsp;</td>
+    </tr>
+    <tr>
+        <td><span><a href="https://github.com/toddheasley">github.com/toddheasley</a></span></td>
+    </tr>
 </table>
 <style>
     
-    :root {
-        color-scheme: light dark;
-        -webkit-text-size-adjust: none;
+    iframe#mixtapes {
+        height: 220px;
     }
     
-    * {
-        margin: 0;
+    iframe#portfolio {
+        height: 360px;
     }
     
-    b {
-        font-size: 1.5em;
-        letter-spacing: 0.5px;
-        opacity: 0.83;
-        text-transform: uppercase;
-    }
-    
-    body {
-        font: 0.83em ui-sans-serif, sans-serif;
-    }
-    
-    hr {
-        margin: 2px 0;
-        max-width: 448px;
-        opacity: 0.33;
-    }
-    
-    iframe, img, span {
+    img, span {
         display: block;
-    }
-     
-    iframe, img {
-        border: 0;
         width: 100%;
     }
     
-    iframe#mixtapes {
-        background: rgba(192, 192, 192, 0.33);
-        border-radius: 2.5px;
-        box-shadow: inset 0 0 0.5px 0;
-        height: 224px;
-        max-width: 672px;
+    img[src="download.svg"] {
+        position: absolute;
+        bottom: 10px;
+        left: 10px;
+    }
+    
+    span#boats img {
+        border-radius: 5px;
     }
     
     span#brickset {
         background: rgb(88, 156, 216);
         border-radius: 2vw;
-    }
-    
-    span#brickset img:first-child {
-        display: block;
-    }
-    
-    span#brickset img:last-child {
-        display: none;
+        margin: 0 auto;
+        width: 96%;
     }
     
     @media (prefers-color-scheme: dark) {
         span#brickset {
             background: rgb(32, 35, 36);
         }
-        
-        span#brickset img:first-child {
-            display: none;
-        }
-        
-        span#brickset img:last-child {
-            display: block;
-        }
-    }
-    
-    span#harsh-barge {
-        border-radius: 1.5px;
-        max-width: 512px;
-        overflow: hidden;
     }
     
     table {
-        border-spacing: 1em;
-        margin: 1vh auto;
-        max-width: 896px;
-        width: 100%;
-    }
-    
-    td {
-        padding: 0;
+        border-spacing: 0 1em;
+        max-width: 640px;
     }
     
 </style>
