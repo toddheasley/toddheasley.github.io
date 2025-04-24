@@ -14,14 +14,6 @@
     }
 }
 
-b {
-    float: left;
-    font-size: 0.83em;
-    margin-right: 0.9em;
-    opacity: 0.66;
-    text-transform: uppercase;
-}
-
 body {
     font: 0.9em ui-sans-serif, sans-serif;
     margin: 1em 10px;
@@ -29,25 +21,7 @@ body {
 
 @media print {
     body {
-        font: 11px ui-sans-serif, sans-serif;
-    }
-}
-
-hr {
-    margin: 0.5em 0;
-    opacity: 0.66;
-}
-
-iframe {
-    border: 0;
-    display: block;
-    width: 100%;
-}
-
-@media print {
-    iframe {
-        background: none;
-        box-shadow: none;
+        font-size: 11px;
     }
 }
 
@@ -80,6 +54,6 @@ td {
 
 time {
     font: 0.9em ui-monospace, monospace;
-    opacity: 0.66;
+    opacity: 0.67;
     text-wrap: nowrap;
 }

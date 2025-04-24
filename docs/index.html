@@ -2,7 +2,7 @@
 <title>Todd Heasley - Homepage</title>
 <meta name="og:title" content="Todd Heasley - Homepage">
 <meta name="og:description" content="Apps, etc. for Apple platforms">
-<meta name="og:image" content="https://toddheasley.github.io/index.gif">
+<meta name="og:image" content="https://toddheasley.github.io/toddheasley.png">
 <meta name="viewport" content="initial-scale=1.0">
 <meta charset="UTF-8">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
@@ -13,10 +13,7 @@
         <td colspan="2">Todd&nbsp;Heasley<br>Apps, etc. for Apple platforms</td>
     </tr>
     <tr>
-        <td><img src="index.gif"></td>
-    </tr>
-    <tr>
-        <td><b>Apps, Etc.</b> <hr></td>
+        <td>&nbsp;</td>
     </tr>
     <tr>
         <td><a href="https://github.com/toddheasley/boats"><span id="boats" class="dark"><img src="boats-mac.png"><img src="boats-mac-dark.png"></span></a> <a href="https://apps.apple.com/app/id1152562893"><img src="download.svg" alt="Download on the App Store"></a></td>
@@ -28,16 +25,10 @@
         <td>&nbsp;</td>
     </tr>
     <tr>
-        <td><b>Portfolio</b> <hr></td>
-    </tr>
-    <tr>
         <td><iframe id="portfolio" src="portfolio.html"></iframe></td>
     </tr>
     <tr>
         <td>&nbsp;</td>
-    </tr>
-    <tr>
-        <td><b>Other Projects</b> <hr></td>
     </tr>
     <tr>
         <td><iframe id="mixtapes" src="https://s3.amazonaws.com/toddheasley/mixtapes/promo.html"></iframe></td>
@@ -49,13 +40,19 @@
         <td>&nbsp;</td>
     </tr>
     <tr>
-        <td>&nbsp;</td>
-    </tr>
-    <tr>
         <td><span><a href="https://github.com/toddheasley">github.com/toddheasley</a></span></td>
     </tr>
 </table>
 <style>
+    
+    iframe, img, span {
+        display: block;
+        width: 100%;
+    }
+    
+    iframe {
+        border: 0;
+    }
     
     iframe#mixtapes {
         background: rgba(128, 128, 128, 0.33);
@@ -64,15 +61,10 @@
     }
     
     iframe#portfolio {
-        background: rgba(128, 128, 128, 0.2);
+        background: rgba(128, 128, 128, 0.1);
         border-radius: 2px;
         box-shadow: inset 0 0 1.5px 0 rgba(33, 33, 33, 0.5);
         height: 360px;
-    }
-    
-    img, span {
-        display: block;
-        width: 100%;
     }
     
     img[src="download.svg"] {
@@ -100,7 +92,7 @@
     
     table {
         border-spacing: 0 1em;
-        max-width: 640px;
+        max-width: 750px;
     }
     
 </style>
