@@ -1,6 +1,7 @@
 :root {
-    color-scheme: light dark;
     -webkit-text-size-adjust: none;
+    color-scheme: light dark;
+    --inset: 11px;
 }
 
 * {
@@ -15,8 +16,7 @@
 }
 
 body {
-    font: 0.9em ui-sans-serif, sans-serif;
-    margin: 1em 10px;
+    font: 1em ui-sans-serif, sans-serif;
 }
 
 @media print {
@@ -25,8 +25,8 @@ body {
     }
 }
 
-img[src="download.svg"] {
-    width: auto;
+iframe {
+    border: 0;
 }
 
 span.dark img:last-child {
@@ -41,19 +41,4 @@ span.dark img:last-child {
     span.dark img:last-child {
         display: inherit;
     }
-}
-
-table {
-    margin: 0 auto;
-    width: 100%;
-}
-
-td {
-    position: relative;
-}
-
-time {
-    font: 0.9em ui-monospace, monospace;
-    opacity: 0.67;
-    text-wrap: nowrap;
 }

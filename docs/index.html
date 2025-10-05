@@ -2,97 +2,115 @@
 <title>Todd Heasley - Homepage</title>
 <meta name="og:title" content="Todd Heasley - Homepage">
 <meta name="og:description" content="Apps, etc. for Apple platforms">
-<meta name="og:image" content="https://toddheasley.github.io/toddheasley.png">
+<meta name="og:image" content="https://toddheasley.com/toddheasley.png">
 <meta name="viewport" content="initial-scale=1.0">
 <meta charset="UTF-8">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
 <link rel="icon" href="favicon.ico">
 <link rel="stylesheet" href="html.css">
-<table>
-    <tr>
-        <td colspan="2">Todd&nbsp;Heasley<br>Apps, etc. for Apple platforms</td>
-    </tr>
-    <tr>
-        <td>&nbsp;</td>
-    </tr>
-    <tr>
-        <td><a href="https://github.com/toddheasley/boats"><span id="boats" class="dark"><img src="boats-mac.png"><img src="boats-mac-dark.png"></span></a> <a href="https://apps.apple.com/app/id1152562893"><img src="download.svg" alt="Download on the App Store"></a></td>
-    </tr>
-    <tr>
-        <td><a href="https://github.com/toddheasley/getset"><span id="getset" class="dark"><img src="getset-cli.png"><img src="getset-cli-dark.png"></span></a></td>
-    </tr>
-    <tr>
-        <td>&nbsp;</td>
-    </tr>
-    <tr>
-        <td><iframe id="portfolio" src="portfolio.html"></iframe></td>
-    </tr>
-    <tr>
-        <td>&nbsp;</td>
-    </tr>
-    <tr>
-        <td><iframe id="mixtapes" src="https://s3.amazonaws.com/toddheasley/mixtapes/promo.html"></iframe></td>
-    </tr>
-    <tr>
-        <td><a href="https://toddheasley.github.io/harsh-barge"><img src="https://toddheasley.github.io/harsh-barge/promo.png"></a></td>
-    </tr>
-    <tr>
-        <td>&nbsp;</td>
-    </tr>
-    <tr>
-        <td><span><a href="https://github.com/toddheasley">github.com/toddheasley</a></span></td>
-    </tr>
-</table>
 <style>
     
-    iframe, img, span {
-        display: block;
+    body {
+        max-width: 768px;
+        margin: var(--inset) auto;
+        width: calc(100% - (var(--inset) * 2));
+    }
+    
+    body > * {
+        margin: 2em 0 1em 0;
+    }
+    
+    h1 {
+        font-size: 1em;
+        font-weight: normal;
+    }
+    
+    iframe, img, table {
         width: 100%;
     }
     
-    iframe {
-        border: 0;
+    img {
+        display: block;
     }
     
-    iframe#mixtapes {
-        background: rgba(128, 128, 128, 0.33);
-        border-radius: 5px;
-        height: 192px;
+    img[src$=".svg"] {
+        display: inline-block;
+        width: initial;
     }
     
-    iframe#portfolio {
-        background: rgba(128, 128, 128, 0.1);
-        border-radius: 2px;
-        box-shadow: inset 0 0 1.5px 0 rgba(33, 33, 33, 0.5);
-        height: 360px;
+    p {
+        position: relative;
     }
     
-    img[src="download.svg"] {
+    #hubby {
+        background: rgba(160, 165, 169, 0.17);
+        border-radius: 1.5em;
+        padding: 1em;
+    }
+    
+    #hubby a {
+        text-decoration: none;
+    }
+    
+    #hubby h2 {
+        font-size: 2em;
+    }
+    
+    #hubby nav {
+        float: right;
+    }
+    
+    #hubby p {
+        clear: both;
+    }
+    
+    #boats {
+        border-collapse: collapse;
+    }
+    
+    #boats img {
+        max-width: 512px;
+    }
+    
+    #boats img[src$=".svg"] {
+        margin-right: 1em;
+    }
+    
+    #music a {
+        left: 0;
         position: absolute;
-        bottom: 10px;
-        left: 10px;
+        top: 0;
     }
     
-    span#boats img {
-        border-radius: 5px;
+    #music iframe {
+        border-radius: var(--inset);
+        height: 450px;
+        position: relative;
+        top: 1.5em;
     }
     
-    span#getset {
-        background: rgb(88, 156, 216);
-        border-radius: 2vw;
-        margin: 0 auto;
-        width: 96%;
-    }
-    
-    @media (prefers-color-scheme: dark) {
-        span#getset {
-            background: rgb(32, 35, 36);
-        }
-    }
-    
-    table {
-        border-spacing: 0 1em;
-        max-width: 750px;
+    #house b {
+        bottom: 22%;
+        color: ghostwhite;
+        font: bold 1em ui-serif, serif;
+        left: 10%;
+        position: absolute;
     }
     
 </style>
+<h1>Todd&nbsp;Heasley<br>Apps, etc. for Apple platforms</h1>
+<section id="hubby">
+    <nav><a href="https://apps.apple.com/app/id6742765350"><img src="https://toddheasley.com/hubby/price.svg" alt="$4.99"></a> <a href="https://apps.apple.com/app/id6742765350"><img src="https://toddheasley.com/hubby/download.svg" alt="Download on the App Store"></a></nav>
+    <h2><a href="https://toddheasley.com/hubby">Hubby</a></h2>
+    <p><b>A remote control for Bluetooth-enabled bricks</b></p>
+    <p><a href="https://toddheasley.com/hubby"><span class="dark"><img src="https://toddheasley.com/hubby/hubby-ipad.png"><img src="https://toddheasley.com/hubby/hubby-ipad-dark.png"></span></a></p>
+</section>
+<table id="boats">
+    <tr>
+        <td><a href="https://github.com/toddheasley/boats"><img src="https://toddheasley.com/boats/hero.png" alt="Casco Bay Lines ferry schedules"></a></td>
+        <td><a href="https://apps.apple.com/app/id1152562893"><img src="https://toddheasley.com/boats/download.svg" alt="Download on the App Store"></a></td>
+    </tr>
+</table>
+<p id="music"><iframe src="https://embed.music.apple.com/us/playlist/westside-gunn/pl.u-GgA5Ypmu4aBp6" allow="autoplay *; encrypted-media *;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation"></iframe> <a href="https://s3.amazonaws.com/toddheasley/tapes/index.html"><img src="https://s3.amazonaws.com/toddheasley/tapes/tapes.svg" alt="Tapes"></a></p>
+<p id="house"><a href="https://toddheasley.com/harsh-barge"><b>"Harsh Barge"</b> <img src="https://toddheasley.com/harsh-barge/promo.png"></a></p>
+<p><a href="https://github.com/toddheasley">github.com/toddheasley</a></p>
