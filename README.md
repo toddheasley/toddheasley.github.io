@@ -10,9 +10,3 @@ __A remote control for Bluetooth-enabled bricks__
   <source media="(prefers-color-scheme: dark)" srcset="https://toddheasley.com/hubby/hubby-ipad-dark.png">
   <img src="https://toddheasley.com/hubby/hubby-ipad.png">
 </picture></a></p>
-
-[![Tapes](https://s3.amazonaws.com/toddheasley/tapes/tapes.svg)](https://s3.amazonaws.com/toddheasley/tapes/index.html)
-
-[!["Harsh Barge"](https://toddheasley.com/harsh-barge/promo.png)](https://toddheasley.com/harsh-barge)
-
-[github.com/toddheasley](https://github.com/toddheasley)
