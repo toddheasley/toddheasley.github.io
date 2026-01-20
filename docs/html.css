@@ -1,7 +1,6 @@
 :root {
     -webkit-text-size-adjust: none;
     color-scheme: light dark;
-    --inset: 11px;
 }
 
 * {

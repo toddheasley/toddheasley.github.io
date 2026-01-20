@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-<title>Todd Heasley - Homepage</title>
-<meta name="og:title" content="Todd Heasley - Homepage">
+<title>Todd Heasley - Apps, etc. for Apple platforms</title>
+<meta name="application-title" content="toddheasley">
+<meta name="og:title" content="Todd Heasley">
 <meta name="og:description" content="Apps, etc. for Apple platforms">
-<meta name="og:image" content="https://toddheasley.com/toddheasley.png">
+<meta name="og:image" content="https://toddheasley.com/hubby/share.png">
 <meta name="viewport" content="initial-scale=1.0">
 <meta charset="UTF-8">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
@@ -11,13 +12,17 @@
 <style>
     
     body {
+        font-family: ui-sans-serif, sans-serif;
+        margin: 0 auto;
         max-width: 768px;
-        margin: var(--inset) auto;
-        width: calc(100% - (var(--inset) * 2));
     }
     
-    body > * {
-        margin: 2em 0 1em 0;
+    body, p, section {
+        position: relative;
+    }
+    
+    footer, h1 {
+        margin: 2em 1em;
     }
     
     h1 {
@@ -38,79 +43,35 @@
         width: initial;
     }
     
-    p {
-        position: relative;
-    }
-    
-    #hubby {
-        background: rgba(160, 165, 169, 0.17);
-        border-radius: 1.5em;
-        padding: 1em;
-    }
-    
-    #hubby a {
-        text-decoration: none;
-    }
-    
-    #hubby h2 {
-        font-size: 2em;
-    }
-    
-    #hubby nav {
-        float: right;
-    }
-    
-    #hubby p {
-        clear: both;
-    }
-    
-    #boats {
-        border-collapse: collapse;
-    }
-    
-    #boats img {
-        max-width: 512px;
-    }
-    
-    #boats img[src$=".svg"] {
-        margin-right: 1em;
-    }
-    
-    #music a {
-        left: 0;
-        position: absolute;
-        top: 0;
-    }
-    
-    #music iframe {
-        border-radius: var(--inset);
-        height: 450px;
-        position: relative;
-        top: 1.5em;
+    #house {
+        display: none;
     }
     
     #house b {
-        bottom: 22%;
+        bottom: 20%;
         color: ghostwhite;
         font: bold 1em ui-serif, serif;
         left: 10%;
         position: absolute;
     }
     
+    #hubby nav {
+        margin: 1em;
+        position: absolute;
+        right: 1em;
+    }
+    
+    #hubby p {
+        padding: 4em 0 3em 0;
+    }
+    
 </style>
 <h1>Todd&nbsp;Heasley<br>Apps, etc. for Apple platforms</h1>
 <section id="hubby">
     <nav><a href="https://apps.apple.com/app/id6742765350"><img src="https://toddheasley.com/hubby/price.svg" alt="$4.99"></a> <a href="https://apps.apple.com/app/id6742765350"><img src="https://toddheasley.com/hubby/download.svg" alt="Download on the App Store"></a></nav>
-    <h2><a href="https://toddheasley.com/hubby">Hubby</a></h2>
-    <p><b>A remote control for Bluetooth-enabled bricks</b></p>
-    <p><a href="https://toddheasley.com/hubby"><span class="dark"><img src="https://toddheasley.com/hubby/hubby-ipad.png"><img src="https://toddheasley.com/hubby/hubby-ipad-dark.png"></span></a></p>
+    <p><a href="https://toddheasley.com/hubby"><span class="dark"><img src="https://toddheasley.com/hubby/hubby-app.png"><img src="https://toddheasley.com/hubby/hubby-app-dark.png"></span></a></p>
 </section>
-<table id="boats">
-    <tr>
-        <td><a href="https://github.com/toddheasley/boats"><img src="https://toddheasley.com/boats/hero.png" alt="Casco Bay Lines ferry schedules"></a></td>
-        <td><a href="https://apps.apple.com/app/id1152562893"><img src="https://toddheasley.com/boats/download.svg" alt="Download on the App Store"></a></td>
-    </tr>
-</table>
-<p id="music"><iframe src="https://embed.music.apple.com/us/playlist/westside-gunn/pl.u-GgA5Ypmu4aBp6" allow="autoplay *; encrypted-media *;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation"></iframe><!-- <a href="https://s3.amazonaws.com/toddheasley/tapes/index.html"><img src="https://s3.amazonaws.com/toddheasley/tapes/tapes.svg" alt="Tapes"></a> --></p>
 <p id="house"><a href="https://toddheasley.com/harsh-barge"><b>"Harsh Barge"</b> <img src="https://toddheasley.com/harsh-barge/promo.png"></a></p>
-<p><a href="https://github.com/toddheasley">github.com/toddheasley</a></p>
+<footer>
+    <p><a href="https://github.com/toddheasley">github.com/toddheasley</a></p>
+</footer>
